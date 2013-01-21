@@ -1,0 +1,224 @@
+
+\documentclass[12pt]{article}
+\textwidth = 15cm \oddsidemargin = 1.5cm \topmargin = -3cm
+\textheight = 21cm
+%\usepackage[russian]{babel}
+%\usepackage{graphicx}
+\usepackage{feynmf}
+\unitlength=1mm
+\begin{document}
+
+%¬от € иду и курю...
+
+\begin{eqnarray}
+\begin{fmffile}{d67d9f7ad}
+\parbox{40mm}{
+\begin{fmfgraph*}(40,25)
+  \fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{fermion,tension=2}{i,v1}
+  \fmf{dots,tension=2}{v2,o}
+  \fmf{photon,right,left=0.5, tension=.4, label=$dffs$}{v2,v1}
+  \fmf{fermion,right,left=0.5, tension=.4}{v1,v2}
+    \end{fmfgraph*}}\quad + gm^{2e}\quad \parbox{20mm}{\begin{fmfgraph*}(40,25)
+  \fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{fermion,tension=2}{i,v1}
+  \fmf{dots,tension=2}{v2,o}
+  \fmf{photon,right,left=0.5, tension=.4, label=$dffs$}{v2,v1}
+  \fmf{fermion,right,left=0.5, tension=.4}{v1,v2}
+   \end{fmfgraph*}}
+\end{fmffile}
+\end{eqnarray}
+
+
+
+¬от € покурил))
+
+\begin{fmffile}{fmftempl}
+\begin{fmfchar*}(40,25)
+\fmfleft{em,ep} \fmflabel{$e^+$}{ep} \fmflabel{$e^-$}{em}
+\fmf{fermion}{em,Zee,ep} \fmf{photon,label=$\gamma,,Z$}{Zee,Zff}
+\fmf{fermion}{fb,Zff,f} \fmfright{fb,f} \fmflabel{$\bar f'$}{fb}
+\fmflabel{$f$}{f} \fmfdot{Zee,Zff}
+\end{fmfchar*}
+\end{fmffile}
+
+\begin{fmffile}{ee-psi-ee} %им€ mp-файл
+\begin{fmfgraph*}(110,62) %размер диаграммы
+\fmfleft{ei,pi} %вершины-источники
+\fmfright{eo,po} %исход€щие вершины
+\fmflabel{$e^-$}{ei} %метка источника e^-
+\fmflabel{$e^+$}{pi} %метка источника e^+
+\fmflabel{$e^+$}{po} %метка исход€щей вершины
+\fmflabel{$e^-$}{eo} %метка исход€щей вершины
+%лини€ соедин€юща€ источники
+\fmf{fermion}{ei,Ji,pi}
+%лини€ соедин€ющие исход€щее вершины
+\fmf{fermion}{po,Jo,eo}
+%ћетка дл€ начальной вершины промежуточной частицы
+\fmflabel{$\Gamma_{e^{+}e^{-}}$}{Ji}
+%ћетка дл€ конечной вершины промежуточной частицы
+\fmflabel{$Br_{e^{+}e^{-}}$}{Jo}
+%—оединительна€ лини€
+\fmf{heavy,label=$J/\psi$}{Ji,Jo}
+\end{fmfgraph*}
+\end{fmffile}
+
+
+
+\begin{fmffile}{eyeglassesss}
+\begin{fmfgraph}(50,30)
+\fmfleft{i} \fmfright{o} \fmf{phantom,tension=10}{i,i1}
+\fmf{fermion,tension=2}{o,o1}
+\fmf{fermion,left,tension=0.4}{i1,v1,i1}
+\fmf{fermion,right,tension=0.4}{o1,v2,o1} \fmf{dashes}{v1,v2}
+\end{fmfgraph}
+\end{fmffile}
+
+%%phi'phi'
+\begin{eqnarray}
+\begin{fmffile}{ds7dkfs97ad}
+\langle \psi^{\dag} \psi^{\dag} \rangle _{1-ir}= 2\lambda Z_{5} +
+\parbox{30mm}{
+\begin{fmfgraph*}(30,20)
+\fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{fermion,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v2}
+  \fmf{plain,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{plain,right,left=0.7, tension=.5}{v1,v2}
+    \end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+ \fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{fermion,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v2}
+  \fmf{plain,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{photon,right,left=0.7, tension=.5}{v1,v2}
+   \end{fmfgraph*}}
+\end{fmffile}
+\end{eqnarray}
+
+%%phi phi'
+\begin{eqnarray}
+\begin{fmffile}{ds1sk7dfs97ad}
+\langle \psi \psi^{\dag} \rangle _{1-ir}=  Z_{1} i\omega - \lambda\left( Z_{2} k^2- Z_{3}\tau\right)+
+\parbox{30mm}{
+\begin{fmfgraph*}(30,20)
+\fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{plain,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v2}
+  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{plain,right,left=0.7, tension=.5}{v1,v2}
+    \end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+ \fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{plain,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v2}
+  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{photon,right,left=0.7, tension=.5}{v1,v2}
+   \end{fmfgraph*}}
+\end{fmffile}
+\end{eqnarray}
+
+
+
+
+%%psi psi psidag
+\begin{eqnarray*}
+\langle \psi\psi\psi^{\dag}\rangle _{1-ir} =
+-g\lambda\mu^{\frac{\epsilon}{2}}Z_4+{
+\parbox[c]{30mm}{\center\begin{fmffile}{sgf6if0}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{plain,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v1,v2}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}}
+   +\parbox[c]{30mm}{\center\begin{fmffile}{d7f0}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+    \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{photon,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}} +
+ \parbox[c]{30mm}{\center\begin{fmffile}{8s0}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{plain,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   \end{eqnarray*}
+
+%%psi psi psidag
+\begin{eqnarray*}
+\langle \psi\psi^{\dag}v\rangle _{1-ir} =
+-a_{0}k_{i}Z_6+{
+\parbox[c]{30mm}{\center\begin{fmffile}{sgffd6if0}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{photon,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{plain,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}}
+   +\parbox[c]{30mm}{\center\begin{fmffile}{d7fdf0}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{photon,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{plain,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}} +
+ \parbox[c]{30mm}{\center\begin{fmffile}{8dds0}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{photon,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{plain,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v1,v2}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   \end{eqnarray*}
+
+\end{document}

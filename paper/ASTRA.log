@@ -1,0 +1,1223 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.25)  4 DEC 2011 17:11
+entering extended mode
+ %&-line parsing enabled.
+**ASTRA.TEX
+(./ASTRA.TEX
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, bulgarian, ukrainian, russian, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+No file ASTRA.aux.
+\openout1 = `ASTRA.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\everyMPtoPDFconversion=\toks17
+)
+! Undefined control sequence.
+l.30 \address
+             {Department of Theoretical Physics, St.~Petersburg State Univer...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.33 \ead
+         {nikolai.antonov@pobox.spbu.ru}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+! Undefined control sequence.
+l.74 \pacs
+          {05.10.Cc, 05.70.Jk, 05.70.Ln, 64.60.ae, 64.60.Ht, 47.27.ef}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+LaTeX Warning: Citation `Zinn' on page 3 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Book3' on page 3 undefined on input line 96.
+
+
+LaTeX Warning: Citation `HH' on page 3 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Book3' on page 3 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Hinr' on page 3 undefined on input line 103.
+
+
+LaTeX Warning: Citation `JT' on page 3 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Hinr' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Citation `Hinr' on page 3 undefined on input line 120.
+
+
+LaTeX Warning: Citation `JT' on page 3 undefined on input line 122.
+
+[3]
+
+LaTeX Warning: Citation `Ivanov' on page 4 undefined on input line 127.
+
+
+LaTeX Warning: Citation `quench' on page 4 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Satten' on page 4 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Satten' on page 4 undefined on input line 151.
+
+
+LaTeX Warning: Citation `AIM' on page 4 undefined on input line 151.
+
+
+LaTeX Warning: Citation `HH' on page 4 undefined on input line 160.
+
+
+LaTeX Warning: Citation `Book3' on page 4 undefined on input line 160.
+
+
+LaTeX Warning: Citation `Hinr' on page 4 undefined on input line 162.
+
+
+LaTeX Warning: Citation `JT' on page 4 undefined on input line 162.
+
+[4]
+
+LaTeX Warning: Citation `FGV' on page 5 undefined on input line 172.
+
+
+LaTeX Warning: Citation `JphysA' on page 5 undefined on input line 173.
+
+
+LaTeX Warning: Citation `Compress' on page 5 undefined on input line 178.
+
+
+Overfull \hbox (12.81665pt too wide) in paragraph at lines 164--179
+[]\OT1/cmr/m/n/12 To model the tur-bu-lent mix-ing, we em-ploy the fa-mous Kaza
+ntsev--Kraichnan
+ []
+
+
+LaTeX Warning: Reference `sec:QFT' on page 5 undefined on input line 182.
+
+
+LaTeX Warning: Reference `sec:Reno' on page 5 undefined on input line 184.
+
+
+LaTeX Warning: Reference `sec:RGE' on page 5 undefined on input line 189.
+
+
+LaTeX Warning: Reference `sec:FPS' on page 5 undefined on input line 191.
+
+[5]
+
+LaTeX Warning: Reference `sec:Conc' on page 6 undefined on input line 214.
+
+[6]
+
+LaTeX Warning: Reference `shum' on page 7 undefined on input line 271.
+
+
+LaTeX Warning: Reference `kor1' on page 7 undefined on input line 273.
+
+
+LaTeX Warning: Reference `stoh' on page 7 undefined on input line 278.
+
+
+LaTeX Warning: Reference `kor1' on page 7 undefined on input line 278.
+
+
+LaTeX Warning: Reference `shum' on page 7 undefined on input line 278.
+
+
+LaTeX Warning: Reference `actionA' on page 7 undefined on input line 305.
+
+
+LaTeX Warning: Reference `actionG' on page 7 undefined on input line 305.
+
+
+LaTeX Warning: Reference `stoh' on page 7 undefined on input line 307.
+
+
+LaTeX Warning: Reference `kor1' on page 7 undefined on input line 307.
+
+
+LaTeX Warning: Reference `shum' on page 7 undefined on input line 307.
+
+
+LaTeX Warning: Reference `shum' on page 7 undefined on input line 318.
+
+
+LaTeX Warning: Citation `vanK' on page 7 undefined on input line 318.
+
+[7]
+
+LaTeX Warning: Reference `actionG' on page 8 undefined on input line 320.
+
+
+LaTeX Warning: Reference `lines' on page 8 undefined on input line 335.
+
+
+LaTeX Warning: Reference `lines' on page 8 undefined on input line 343.
+
+
+LaTeX Warning: Citation `Book3' on page 8 undefined on input line 347.
+
+
+LaTeX Warning: Reference `actionG' on page 8 undefined on input line 349.
+
+
+LaTeX Warning: Reference `actionG' on page 8 undefined on input line 358.
+
+
+LaTeX Warning: Reference `lines' on page 8 undefined on input line 363.
+
+[8]
+
+LaTeX Warning: Reference `stoh' on page 9 undefined on input line 384.
+
+
+LaTeX Warning: Reference `stoh' on page 9 undefined on input line 391.
+
+
+LaTeX Warning: Reference `nabla' on page 9 undefined on input line 392.
+
+
+LaTeX Warning: Citation `FGV' on page 9 undefined on input line 397.
+
+
+LaTeX Warning: Reference `Kraich' on page 9 undefined on input line 423.
+
+[9]
+
+LaTeX Warning: Reference `actionA' on page 10 undefined on input line 449.
+
+
+LaTeX Warning: Reference `actionG' on page 10 undefined on input line 449.
+
+
+LaTeX Warning: Reference `nabla' on page 10 undefined on input line 450.
+
+
+LaTeX Warning: Reference `white' on page 10 undefined on input line 451.
+
+
+LaTeX Warning: Reference `Kraich' on page 10 undefined on input line 451.
+
+
+LaTeX Warning: Reference `Kraich' on page 10 undefined on input line 460.
+
+
+LaTeX Warning: Reference `lines' on page 10 undefined on input line 462.
+
+
+LaTeX Warning: Reference `ActionA' on page 10 undefined on input line 463.
+
+
+LaTeX Warning: Reference `ActionC' on page 10 undefined on input line 463.
+
+
+LaTeX Warning: Reference `white' on page 10 undefined on input line 464.
+
+
+LaTeX Warning: Reference `Kraich' on page 10 undefined on input line 465.
+
+
+LaTeX Warning: Reference `ActionA' on page 10 undefined on input line 482.
+
+
+LaTeX Warning: Reference `ActionG' on page 10 undefined on input line 483.
+
+
+LaTeX Warning: Reference `symm' on page 10 undefined on input line 483.
+
+
+LaTeX Warning: Reference `ActionC' on page 10 undefined on input line 489.
+
+
+LaTeX Warning: Reference `charges' on page 10 undefined on input line 502.
+
+
+LaTeX Warning: Reference `actionA' on page 10 undefined on input line 506.
+
+
+LaTeX Warning: Reference `actionG' on page 10 undefined on input line 506.
+
+[10]
+
+LaTeX Warning: Reference `ActionA' on page 11 undefined on input line 514.
+
+
+LaTeX Warning: Reference `ActionG' on page 11 undefined on input line 514.
+
+
+LaTeX Warning: Reference `charges' on page 11 undefined on input line 530.
+
+
+LaTeX Warning: Citation `AHH' on page 11 undefined on input line 532.
+
+
+LaTeX Warning: Citation `Alexa' on page 11 undefined on input line 532.
+
+
+LaTeX Warning: Citation `AIK' on page 11 undefined on input line 532.
+
+
+LaTeX Warning: Citation `AIM' on page 11 undefined on input line 532.
+
+
+LaTeX Warning: Citation `Sak' on page 11 undefined on input line 532.
+
+
+LaTeX Warning: Citation `Zinn' on page 11 undefined on input line 540.
+
+
+LaTeX Warning: Citation `Book3' on page 11 undefined on input line 540.
+
+
+LaTeX Warning: Reference `actionA' on page 11 undefined on input line 541.
+
+
+LaTeX Warning: Reference `actionG' on page 11 undefined on input line 541.
+
+
+LaTeX Warning: Reference `ActionA' on page 11 undefined on input line 542.
+
+
+LaTeX Warning: Reference `ActionC' on page 11 undefined on input line 542.
+
+[11]
+
+LaTeX Warning: Citation `Book3' on page 12 undefined on input line 560.
+
+
+LaTeX Warning: Reference `ActionA' on page 12 undefined on input line 561.
+
+
+LaTeX Warning: Reference `ActionC' on page 12 undefined on input line 561.
+
+
+LaTeX Warning: Reference `table1' on page 12 undefined on input line 562.
+
+
+LaTeX Warning: Reference `ActionA' on page 12 undefined on input line 571.
+
+
+LaTeX Warning: Reference `ActionC' on page 12 undefined on input line 571.
+
+
+LaTeX Warning: Reference `ActionA' on page 12 undefined on input line 571.
+
+
+LaTeX Warning: Reference `ActionC' on page 12 undefined on input line 571.
+
+! Undefined control sequence.
+l.574 \br
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \br 
+                    
+l.579 \br
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.583 \mr
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.585 \mr
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \br 
+                    
+l.588 \br
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (83.99788pt too wide) in paragraph at lines 573--590
+[][] 
+ []
+
+
+LaTeX Warning: Citation `Book3' on page 12 undefined on input line 600.
+
+
+LaTeX Warning: Reference `table1' on page 12 undefined on input line 614.
+
+
+LaTeX Warning: Reference `dGamma' on page 12 undefined on input line 614.
+
+[12]
+
+LaTeX Warning: Reference `symm' on page 13 undefined on input line 630.
+
+
+LaTeX Warning: Reference `symmG' on page 13 undefined on input line 630.
+
+
+LaTeX Warning: Reference `IndeG' on page 13 undefined on input line 631.
+
+
+LaTeX Warning: Reference `IndeA' on page 13 undefined on input line 632.
+
+
+LaTeX Warning: Reference `IndeA' on page 13 undefined on input line 634.
+
+
+LaTeX Warning: Reference `IndeG' on page 13 undefined on input line 634.
+
+
+LaTeX Warning: Reference `white' on page 13 undefined on input line 664.
+
+
+LaTeX Warning: Citation `Alexa' on page 13 undefined on input line 664.
+
+
+LaTeX Warning: Reference `ActionA' on page 13 undefined on input line 664.
+
+
+LaTeX Warning: Reference `ActionG' on page 13 undefined on input line 664.
+
+
+LaTeX Warning: Reference `ActionA' on page 13 undefined on input line 666.
+
+
+LaTeX Warning: Reference `ActionG' on page 13 undefined on input line 666.
+
+
+LaTeX Warning: Reference `nabla' on page 13 undefined on input line 673.
+
+
+LaTeX Warning: Reference `Vertex' on page 13 undefined on input line 674.
+
+[13]
+
+LaTeX Warning: Reference `Sv' on page 14 undefined on input line 705.
+
+
+LaTeX Warning: Reference `ActionAR' on page 14 undefined on input line 712.
+
+
+LaTeX Warning: Reference `ActionCR' on page 14 undefined on input line 712.
+
+
+LaTeX Warning: Reference `Sv' on page 14 undefined on input line 724.
+
+
+LaTeX Warning: Reference `Kraich' on page 14 undefined on input line 725.
+
+
+LaTeX Warning: Reference `ActionA' on page 14 undefined on input line 736.
+
+
+LaTeX Warning: Reference `ActionC' on page 14 undefined on input line 736.
+
+
+LaTeX Warning: Reference `ActionAR' on page 14 undefined on input line 737.
+
+
+LaTeX Warning: Reference `ActionCR' on page 14 undefined on input line 737.
+
+
+LaTeX Warning: Reference `Multy' on page 14 undefined on input line 738.
+
+[14]
+
+LaTeX Warning: Reference `ActionAR' on page 15 undefined on input line 783.
+
+
+LaTeX Warning: Reference `ActionCR' on page 15 undefined on input line 783.
+
+
+LaTeX Warning: Reference `Multy' on page 15 undefined on input line 786.
+
+
+LaTeX Warning: Reference `ResoC' on page 15 undefined on input line 787.
+
+
+LaTeX Warning: Reference `ResoG' on page 15 undefined on input line 787.
+
+
+LaTeX Warning: Reference `fig:DA' on page 15 undefined on input line 790.
+
+
+LaTeX Warning: Reference `fig:DG' on page 15 undefined on input line 791.
+
+
+LaTeX Warning: Reference `lines' on page 15 undefined on input line 793.
+
+
+LaTeX Warning: Reference `lines2' on page 15 undefined on input line 795.
+
+
+LaTeX Warning: Reference `white' on page 15 undefined on input line 796.
+
+
+LaTeX Warning: Reference `VertexF' on page 15 undefined on input line 799.
+
+[15]
+
+! LaTeX Error: Unknown graphics extension: .EPS.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.804 \includegraphics[width=15cm]{MODELA.EPS}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `ActionA' on page 16 undefined on input line 807.
+
+
+LaTeX Warning: Reference `ActionA' on page 16 undefined on input line 807.
+
+
+! LaTeX Error: Unknown graphics extension: .EPS.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.815 \includegraphics[width=15cm]{MODELG.EPS}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `ActionG' on page 16 undefined on input line 818.
+
+
+LaTeX Warning: Reference `ActionG' on page 16 undefined on input line 818.
+
+
+LaTeX Warning: Reference `Multy' on page 16 undefined on input line 840.
+
+
+LaTeX Warning: Reference `ZZ' on page 16 undefined on input line 840.
+
+
+LaTeX Warning: Citation `AIK' on page 16 undefined on input line 853.
+
+
+LaTeX Warning: Citation `AHH' on page 16 undefined on input line 854.
+
+
+LaTeX Warning: Citation `Alexa' on page 16 undefined on input line 854.
+
+[16]
+
+LaTeX Warning: Reference `ZoA' on page 17 undefined on input line 875.
+
+
+LaTeX Warning: Reference `ZoG' on page 17 undefined on input line 876.
+
+
+LaTeX Warning: Reference `actionA' on page 17 undefined on input line 880.
+
+
+LaTeX Warning: Reference `actionG' on page 17 undefined on input line 881.
+
+
+LaTeX Warning: Reference `ZoG' on page 17 undefined on input line 882.
+
+
+LaTeX Warning: Citation `AIK' on page 17 undefined on input line 883.
+
+
+LaTeX Warning: Reference `ZoG' on page 17 undefined on input line 883.
+
+
+LaTeX Warning: Reference `symm' on page 17 undefined on input line 891.
+
+
+LaTeX Warning: Reference `symmG' on page 17 undefined on input line 891.
+
+
+LaTeX Warning: Reference `ActionG' on page 17 undefined on input line 893.
+
+
+LaTeX Warning: Citation `Zinn' on page 17 undefined on input line 899.
+
+
+LaTeX Warning: Citation `Book3' on page 17 undefined on input line 899.
+
+
+LaTeX Warning: Reference `ActionA' on page 17 undefined on input line 906.
+
+
+LaTeX Warning: Reference `ActionC' on page 17 undefined on input line 906.
+
+
+LaTeX Warning: Reference `ActionAR' on page 17 undefined on input line 907.
+
+
+LaTeX Warning: Reference `ActionCR' on page 17 undefined on input line 907.
+
+[17]
+
+LaTeX Warning: Reference `multi' on page 18 undefined on input line 926.
+
+
+LaTeX Warning: Reference `Multy' on page 18 undefined on input line 959.
+
+
+LaTeX Warning: Reference `exi' on page 18 undefined on input line 964.
+
+[18]
+
+LaTeX Warning: Reference `RGF1' on page 19 undefined on input line 975.
+
+
+LaTeX Warning: Reference `RG2' on page 19 undefined on input line 976.
+
+
+LaTeX Warning: Reference `betagw' on page 19 undefined on input line 979.
+
+
+LaTeX Warning: Reference `ZoA' on page 19 undefined on input line 981.
+
+
+LaTeX Warning: Reference `ZoG' on page 19 undefined on input line 981.
+
+
+LaTeX Warning: Reference `Zf' on page 19 undefined on input line 987.
+
+
+LaTeX Warning: Reference `GfZ' on page 19 undefined on input line 987.
+
+
+LaTeX Warning: Reference `ResoC' on page 19 undefined on input line 1012.
+
+
+LaTeX Warning: Reference `ResoG' on page 19 undefined on input line 1012.
+
+
+LaTeX Warning: Reference `anomA' on page 19 undefined on input line 1034.
+
+
+LaTeX Warning: Reference `anomG' on page 19 undefined on input line 1034.
+
+
+LaTeX Warning: Reference `RenD' on page 19 undefined on input line 1037.
+
+[19]
+
+LaTeX Warning: Reference `GSymm' on page 20 undefined on input line 1043.
+
+[20]
+
+LaTeX Warning: Reference `Odri' on page 21 undefined on input line 1090.
+
+
+LaTeX Warning: Reference `Bal' on page 21 undefined on input line 1092.
+
+
+LaTeX Warning: Reference `Odri' on page 21 undefined on input line 1094.
+
+
+LaTeX Warning: Reference `OmegaDef' on page 21 undefined on input line 1096.
+
+
+LaTeX Warning: Reference `ActionGR' on page 21 undefined on input line 1107.
+
+
+LaTeX Warning: Reference `ActionCR' on page 21 undefined on input line 1107.
+
+
+LaTeX Warning: Reference `betagw' on page 21 undefined on input line 1108.
+
+
+LaTeX Warning: Reference `aesoC' on page 21 undefined on input line 1108.
+
+
+LaTeX Warning: Reference `aesoG' on page 21 undefined on input line 1108.
+
+
+LaTeX Warning: Reference `exi' on page 21 undefined on input line 1108.
+
+
+LaTeX Warning: Reference `anomG' on page 21 undefined on input line 1109.
+
+
+LaTeX Warning: Reference `betaG' on page 21 undefined on input line 1119.
+
+
+LaTeX Warning: Reference `points' on page 21 undefined on input line 1120.
+
+[21]
+
+LaTeX Warning: Reference `aesoC' on page 22 undefined on input line 1145.
+
+
+LaTeX Warning: Reference `SymmG' on page 22 undefined on input line 1145.
+
+
+LaTeX Warning: Reference `fig:patt' on page 22 undefined on input line 1160.
+
+
+LaTeX Warning: Reference `OmegaDef' on page 22 undefined on input line 1163.
+
+
+! LaTeX Error: Unknown graphics extension: .EPS.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1170 \includegraphics[width=11cm]{PATT.EPS}
+                                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `ActionG' on page 22 undefined on input line 1173.
+
+
+LaTeX Warning: Reference `fig:patt' on page 22 undefined on input line 1181.
+
+
+LaTeX Warning: Reference `fig:patt' on page 22 undefined on input line 1189.
+
+
+LaTeX Warning: Reference `wu4' on page 22 undefined on input line 1197.
+
+
+LaTeX Warning: Reference `fig:patt' on page 22 undefined on input line 1199.
+
+[22]
+
+LaTeX Warning: Reference `fig:patt' on page 23 undefined on input line 1201.
+
+
+LaTeX Warning: Reference `OmegaDef' on page 23 undefined on input line 1207.
+
+
+LaTeX Warning: Reference `betaG' on page 23 undefined on input line 1214.
+
+
+LaTeX Warning: Reference `sector3' on page 23 undefined on input line 1214.
+
+
+LaTeX Warning: Reference `omga3' on page 23 undefined on input line 1221.
+
+
+LaTeX Warning: Reference `omga32' on page 23 undefined on input line 1221.
+
+
+LaTeX Warning: Reference `sector3' on page 23 undefined on input line 1232.
+
+
+LaTeX Warning: Reference `line3' on page 23 undefined on input line 1233.
+
+
+LaTeX Warning: Reference `kut' on page 23 undefined on input line 1234.
+
+
+LaTeX Warning: Reference `nabla' on page 23 undefined on input line 1237.
+
+
+LaTeX Warning: Reference `betaG' on page 23 undefined on input line 1242.
+
+
+LaTeX Warning: Citation `Levy' on page 23 undefined on input line 1249.
+
+[23]
+
+LaTeX Warning: Citation `AIK' on page 24 undefined on input line 1258.
+
+
+LaTeX Warning: Reference `ActionAR' on page 24 undefined on input line 1266.
+
+
+LaTeX Warning: Reference `ActionCR' on page 24 undefined on input line 1266.
+
+
+LaTeX Warning: Reference `betagw' on page 24 undefined on input line 1267.
+
+
+LaTeX Warning: Reference `aesoC' on page 24 undefined on input line 1267.
+
+
+LaTeX Warning: Reference `aesoA' on page 24 undefined on input line 1267.
+
+
+LaTeX Warning: Reference `exi' on page 24 undefined on input line 1267.
+
+
+LaTeX Warning: Reference `anomA' on page 24 undefined on input line 1268.
+
+[24]
+
+LaTeX Warning: Reference `line5' on page 25 undefined on input line 1303.
+
+
+LaTeX Warning: Reference `fig:pattA' on page 25 undefined on input line 1322.
+
+
+! LaTeX Error: Unknown graphics extension: .EPS.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1329 \includegraphics[width=11cm]{PATT_A.EPS}
+                                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `ActionA' on page 25 undefined on input line 1333.
+
+
+LaTeX Warning: Reference `ActionA' on page 25 undefined on input line 1333.
+
+
+LaTeX Warning: Citation `Book3' on page 25 undefined on input line 1352.
+
+
+LaTeX Warning: Reference `table1' on page 25 undefined on input line 1354.
+
+
+LaTeX Warning: Reference `RGF1' on page 25 undefined on input line 1355.
+
+
+LaTeX Warning: Reference `sec:GPS' on page 25 undefined on input line 1362.
+
+
+LaTeX Warning: Reference `sec:GPA' on page 25 undefined on input line 1363.
+
+
+LaTeX Warning: Reference `anomA' on page 25 undefined on input line 1363.
+
+
+LaTeX Warning: Reference `anomG' on page 25 undefined on input line 1364.
+
+
+LaTeX Warning: Reference `aesoC' on page 25 undefined on input line 1365.
+
+
+LaTeX Warning: Reference `aesoG' on page 25 undefined on input line 1365.
+
+
+LaTeX Warning: Reference `tableG' on page 25 undefined on input line 1366.
+
+
+LaTeX Warning: Reference `tableA' on page 25 undefined on input line 1367.
+
+[25]
+
+LaTeX Warning: Reference `ActionG' on page 26 undefined on input line 1372.
+
+
+LaTeX Warning: Reference `ActionC' on page 26 undefined on input line 1372.
+
+
+LaTeX Warning: Reference `ActionG' on page 26 undefined on input line 1372.
+
+
+LaTeX Warning: Reference `ActionC' on page 26 undefined on input line 1372.
+
+! Undefined control sequence.
+l.1375 \br
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \br 
+                    
+l.1376 {} & FP1 & FP2 & FP3 & FP4 \\ \br
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.1379 \\ \mr
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.1382 ...(18+7\alpha)-6\xi}{6(5+2\alpha)}$ \\ \mr
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.1385 ...(18+7\alpha)-6\xi}{6(5+2\alpha)}$ \\ \mr
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \br 
+                    
+l.1387 ...+3\xi(3+2\alpha)} {3(5+2\alpha)}$ \\ \br
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `ActionA' on page 26 undefined on input line 1393.
+
+
+LaTeX Warning: Reference `ActionC' on page 26 undefined on input line 1393.
+
+
+LaTeX Warning: Reference `ActionA' on page 26 undefined on input line 1393.
+
+
+LaTeX Warning: Reference `ActionC' on page 26 undefined on input line 1393.
+
+! Undefined control sequence.
+l.1396 \br
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \br 
+                    
+l.1397 {} & FP1 & FP2 & FP3 & FP4 \\ \br
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.1399 ...a}$ & 2  & 2  & $2-\xi$ & $2-\xi$ \\ \mr
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.1402 ...a)+\xi(5\alpha-12)}{3(3+\alpha)}$ \\ \mr
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mr 
+                    
+l.1405 ...a)-\xi(5\alpha-12)}{3(3+\alpha)}$ \\ \mr
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \br 
+                    
+l.1407 ...pha)+\xi(3+4\alpha)}{(3+\alpha)}$ \\ \br
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `exi' on page 26 undefined on input line 1417.
+
+
+LaTeX Warning: Reference `dim' on page 26 undefined on input line 1417.
+
+
+LaTeX Warning: Reference `betagw' on page 26 undefined on input line 1419.
+
+
+LaTeX Warning: Citation `JphysA' on page 26 undefined on input line 1426.
+
+
+LaTeX Warning: Reference `ZZ' on page 26 undefined on input line 1428.
+
+
+LaTeX Warning: Reference `exi' on page 26 undefined on input line 1428.
+
+[26]
+
+LaTeX Warning: Reference `tableG' on page 27 undefined on input line 1432.
+
+
+LaTeX Warning: Reference `symm' on page 27 undefined on input line 1435.
+
+
+LaTeX Warning: Reference `symmG' on page 27 undefined on input line 1435.
+
+
+LaTeX Warning: Reference `GSymm' on page 27 undefined on input line 1436.
+
+
+LaTeX Warning: Reference `white' on page 27 undefined on input line 1440.
+
+
+LaTeX Warning: Reference `Kraich' on page 27 undefined on input line 1440.
+
+[27]
+
+LaTeX Warning: Reference `respd' on page 28 undefined on input line 1487.
+
+
+LaTeX Warning: Reference `Green' on page 28 undefined on input line 1502.
+
+
+LaTeX Warning: Reference `Rad' on page 28 undefined on input line 1502.
+
+
+LaTeX Warning: Reference `Green' on page 28 undefined on input line 1509.
+
+
+LaTeX Warning: Reference `R3' on page 28 undefined on input line 1512.
+
+
+LaTeX Warning: Reference `dim' on page 28 undefined on input line 1519.
+
+
+LaTeX Warning: Reference `R3' on page 28 undefined on input line 1525.
+
+
+LaTeX Warning: Reference `R4' on page 28 undefined on input line 1525.
+
+
+LaTeX Warning: Reference `tableG' on page 28 undefined on input line 1528.
+
+
+LaTeX Warning: Reference `tableA' on page 28 undefined on input line 1528.
+
+[28]
+
+LaTeX Warning: Reference `R4' on page 29 undefined on input line 1533.
+
+
+LaTeX Warning: Reference `sec:FPS' on page 29 undefined on input line 1539.
+
+
+LaTeX Warning: Reference `R4' on page 29 undefined on input line 1543.
+
+
+LaTeX Warning: Reference `tableG' on page 29 undefined on input line 1552.
+
+
+LaTeX Warning: Reference `R5' on page 29 undefined on input line 1552.
+
+
+LaTeX Warning: Reference `R6' on page 29 undefined on input line 1557.
+
+
+LaTeX Warning: Reference `R4' on page 29 undefined on input line 1563.
+
+[29] [30] [31] (./ASTRA.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1366 strings out of 494818
+ 15724 string characters out of 1178665
+ 68180 words of memory out of 3000000
+ 4568 multiletter control sequences out of 15000+50000
+ 17838 words of font info for 67 fonts, out of 3000000 for 9000
+ 212 hyphenation exceptions out of 8191
+ 25i,11n,24p,299b,214s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.
+pfb>
+Output written on ASTRA.pdf (31 pages, 342046 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

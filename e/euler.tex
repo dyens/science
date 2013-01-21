@@ -1,0 +1,116 @@
+\documentclass{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[dvips,a4paper,scale=0.9]{geometry}
+\usepackage{mathrsfs}
+\usepackage{pstricks-add}
+\usepackage{animate}
+\usepackage[frenchb]{babel}
+
+
+
+\psset{algebraic,unit=3cm,yunit=0.5}
+
+
+% Macro utilisant les macros \x et \y
+% qui devront être définies au préalable.
+% #1 = le pas (un nombre comme 0,75 ou 0,5 ou 0,25 ou 0,1)
+% #2 = la couleur
+% Cette macro :
+%   1) définit \xnew = \x+pas et \ynew = \y*(1+pas) en notation PostScript
+%   2) trace le segment allant de (\x;\y) à (\xnew;\ynew)
+%   3) et redéfinit \x et \y en respectivement \xnew et \ynew
+\newcommand{\Ligne}[2]%
+{%
+  \xdef\xnew{\x \space #1 add}
+  \xdef\ynew{\y \space 1 #1 add mul}
+  \psline[linecolor=#2,arrowscale=0.7]{*-*}(! \x \space \y)(! \xnew \space \ynew)
+  \xdef\x{\xnew}
+  \xdef\y{\ynew}
+}
+
+
+
+% Créer le fichier euler.tln ouvert en écriture
+\newwrite\euler
+\immediate\openout\euler=euler.tln
+% Puis, on peut ensuite écrire dessus
+\immediate\write\euler{::0x0} % le "fond d'écran"
+%
+\immediate\write\euler{::1x0} % légende pour un pas de 0.75
+\multido{\n=5+1}{4}{\immediate\write\euler{::\n x0}} % pas de 0.75
+%
+\immediate\write\euler{::2x0} % légende pour un pas de 0.5
+\multido{\n=9+1}{6}{\immediate\write\euler{::\n x0}} % pas de 0.5
+%
+\immediate\write\euler{::3x0} % légende pour un pas de 0.25
+\multido{\n=15+1}{12}{\immediate\write\euler{:4:\n x0}} % pas de 0.25
+%
+\immediate\write\euler{::4x0} % légende pour un pas de 0.1
+\multido{\n=27+1}{30}{\immediate\write\euler{:8:\n x0}} % pas de 0.1
+% Fermeture du fichier
+\immediate\closeout\euler
+
+
+
+\begin{document}
+
+\begin{center}
+\LARGE Construction de la fonction exp par la
+méthode d'Euler
+\end{center}
+\vspace{1cm}
+
+On se restreint à l'intervalle $[0\,;\,3]$
+
+
+\begin{center}
+
+
+\begin{animateinline}[
+  controls,
+  buttonsize=2em,
+  begin={\begin{pspicture}(-1,-1)(3,10)},
+  end={\end{pspicture}},
+  timeline=euler.tln
+]{2}
+  % frame 0 : repère et fonction exponentielle
+  \psframe[linewidth=2pt](-1,-1)(3,10)
+  \psaxes[arrowscale=2,labels=none]{->}(0,0)(-1,-1)(3,10)
+  \pnode(1.90,7){A} \pnode(1,8){B}
+  \psline{->}(B)(A)
+  \uput{2pt}[140](B){$\mathscr{C}$ : $y= \exp(x)$}
+  \psplot[linewidth=3pt]{-1}{3}{2.71828^x}
+\newframe
+  % frame 1 : légende pour un pas de 0.75
+  \rput[l](1.5,1){\textcolor{green}{Avec un pas de 0,75}}
+\newframe
+  % frame 2 : légende pour un pas de 0.5
+  \rput[l](1.5,1.5){\textcolor{blue}{Avec un pas de 0,5}}
+\newframe
+  % frame 3 : légende pour un pas de 0.25
+  \rput[l](1.5,2){\textcolor{red}{Avec un pas de 0,25}}
+\newframe
+  % frame 4 : légende pour un pas de 0.1  
+  \rput[l](1.5,2.5){\textcolor{violet}{Avec un pas de 0,1}}
+\newframe
+  % 4 frames (de 5 à 8) : lignes pour un pas de 0.75
+  \def\x{0} \def\y{1} % (0;1) est le point de départ des lignes brisées
+  \multiframe{4}{}{\Ligne{0.75}{green}}   
+\newframe
+  % 6 frames (de 9 à 14) : lignes pour un pas de 0.5
+  \def\x{0} \def\y{1} % (0;1) est le point de départ des lignes brisées
+  \multiframe{6}{}{\Ligne{0.5}{blue}}  
+\newframe
+  % 12 frames (de 15 à 26) : lignes pour un pas de 0.25
+  \def\x{0} \def\y{1} % (0;1) est le point de départ des lignes brisées
+  \multiframe{12}{}{\Ligne{0.25}{red}}     
+\newframe
+  % 30 frames (de 27 à 56) : lignes pour un pas de 0.1
+  \def\x{0} \def\y{1} % (0;1) est le point de départ des lignes brisées
+  \multiframe{30}{}{\Ligne{0.1}{violet}} 
+\end{animateinline}
+\end{center}
+
+\end{document}

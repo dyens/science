@@ -1,0 +1,349 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.25)  19 MAR 2012 04:11
+entering extended mode
+ %&-line parsing enabled.
+**potts.tex
+(./potts.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, bulgarian, ukrainian, russian, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/feynmf/feynmf.sty
+Package: feynmf 1996/12/02 v1.08 LaTeX/Metafont Feynman Diagram Package (ohl)
+\@outfmf=\write3
+\fmfbuf@=\toks14
+\c@fmfgraph=\count87
+\grep@infile=\read1
+\grep@outfile=\write4
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count100
+)) (./potts.aux)
+\openout1 = `potts.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen112
+\scratchbox=\box28
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen113
+\MPnumerator=\count105
+\everyMPtoPDFconversion=\toks21
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (9.3239pt too wide) in paragraph at lines 123--129
+\OT1/cmr/m/n/12 with two bare prop-a-ga-tors $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/1
+2   []\OMS/cmsy/m/n/12 i[]\OML/cmm/m/it/12 ;  \OMS/cmsy/m/n/12 h\OML/cmm/m/it/1
+2   \OMS/cmsy/m/n/12 i[]$ \OT1/cmr/m/n/12 and triple ver-tex $\OMS/cmsy/m/n/12 
+^^X \OML/cmm/m/it/12  [] []$\OT1/cmr/m/n/12 . In the frequency-
+ []
+
+[2] [3]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5] [6]
+
+feynmf: File ds7dkfgs97ad.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ds7dkfgs97ad.mf.
+feynmf: If dimension have changed, reprocess ds7dkfgs97ad.mf and potts.tex.
+\openout3 = `ds7dkfgs97ad.mf'.
+
+feynmf: Label file ds7dkfgs97ad.t1 not found:
+feynmf: Process ds7dkfgs97ad.mf with METAFONT and then reprocess this file.
+feynmf: Label file ds7dkfgs97ad.t2 not found:
+feynmf: Process ds7dkfgs97ad.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File ds1sgk7dfs97ad.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ds1sgk7dfs97ad.mf.
+feynmf: If dimension have changed, reprocess ds1sgk7dfs97ad.mf and potts.tex.
+\openout3 = `ds1sgk7dfs97ad.mf'.
+
+feynmf: Label file ds1sgk7dfs97ad.t1 not found:
+feynmf: Process ds1sgk7dfs97ad.mf with METAFONT and then reprocess this file.
+feynmf: Label file ds1sgk7dfs97ad.t2 not found:
+feynmf: Process ds1sgk7dfs97ad.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File sgff6dggif0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess sgff6dggif0.mf.
+feynmf: If dimension have changed, reprocess sgff6dggif0.mf and potts.tex.
+\openout3 = `sgff6dggif0.mf'.
+
+feynmf: Label file sgff6dggif0.t1 not found:
+feynmf: Process sgff6dggif0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File ddg7gf0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ddg7gf0.mf.
+feynmf: If dimension have changed, reprocess ddg7gf0.mf and potts.tex.
+\openout3 = `ddg7gf0.mf'.
+
+feynmf: Label file ddg7gf0.t1 not found:
+feynmf: Process ddg7gf0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File 8gsdg0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess 8gsdg0.mf.
+feynmf: If dimension have changed, reprocess 8gsdg0.mf and potts.tex.
+\openout3 = `8gsdg0.mf'.
+
+feynmf: Label file 8gsdg0.t1 not found:
+feynmf: Process 8gsdg0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File sgffgdgd6if0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess sgffgdgd6if0.mf.
+feynmf: If dimension have changed, reprocess sgffgdgd6if0.mf and potts.tex.
+\openout3 = `sgffgdgd6if0.mf'.
+
+feynmf: Label file sgffgdgd6if0.t1 not found:
+feynmf: Process sgffgdgd6if0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File d7fggfdgf0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess d7fggfdgf0.mf.
+feynmf: If dimension have changed, reprocess d7fggfdgf0.mf and potts.tex.
+\openout3 = `d7fggfdgf0.mf'.
+
+feynmf: Label file d7fggfdgf0.t1 not found:
+feynmf: Process d7fggfdgf0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File 8gfgdggs0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess 8gfgdggs0.mf.
+feynmf: If dimension have changed, reprocess 8gfgdggs0.mf and potts.tex.
+\openout3 = `8gfgdggs0.mf'.
+
+feynmf: Label file 8gfgdggs0.t1 not found:
+feynmf: Process 8gfgdggs0.mf with METAFONT and then reprocess this file.
+[7]
+Overfull \hbox (4.12384pt too wide) in paragraph at lines 656--666
+\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 ^^U[]; ^^\[]; u[]; w[]; a[]; m[]; []\OMS/cm
+sy/m/n/12 g$ \OT1/cmr/m/n/12 is the full set of bare pa-ram-e-ters and $\OML/cm
+m/m/it/12 e \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 ^^U; ^^\; u; w
+; a; m; \OMS/cmsy/m/n/12 g$
+ []
+
+[8] [9]
+Overfull \hbox (26.23836pt too wide) in paragraph at lines 771--771
+[]\OT1/cmr/bx/n/17.28 Attractors of the RG equa-tions and scal-ing regimes
+ []
+
+[10] [11]
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no û in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ <./Diagram1.pdf, id=56, 227.85126pt x 256.96pt>
+File: ./Diagram1.pdf Graphic file (type pdf)
+ <use ./Diagram1.pdf>
+<./Diagram3.pdf, id=57, 227.85126pt x 256.96pt>
+File: ./Diagram3.pdf Graphic file (type pdf)
+ <use ./Diagram3.pdf>
+<./Diagram4.pdf, id=58, 227.85126pt x 256.96pt>
+File: ./Diagram4.pdf Graphic file (type pdf)
+ <use ./Diagram4.pdf> [12]
+[13 <./Diagram1.pdf> <./Diagram3.pdf>]
+<./Diagram5.pdf, id=72, 227.85126pt x 256.96pt>
+File: ./Diagram5.pdf Graphic file (type pdf)
+ <use ./Diagram5.pdf>
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+
+<./Diagram6.pdf, id=73, 227.85126pt x 256.96pt>
+File: ./Diagram6.pdf Graphic file (type pdf)
+ <use ./Diagram6.pdf>
+<./Diagram7.pdf, id=74, 227.85126pt x 256.96pt>
+File: ./Diagram7.pdf Graphic file (type pdf)
+ <use ./Diagram7.pdf>
+<./Diagram8.pdf, id=75, 227.85126pt x 256.96pt>
+File: ./Diagram8.pdf Graphic file (type pdf)
+ <use ./Diagram8.pdf> [14 <./Diagram4.pdf>] [15 <./Diagram5.pdf> <./Diagram6.pd
+f>] [16 <./Diagram7.pdf> <./Diagram8.pdf>] [17] [18] (./potts.aux) ) 
+Here is how much of TeX's memory you used:
+ 1728 strings out of 494818
+ 19611 string characters out of 1178665
+ 82003 words of memory out of 3000000
+ 4924 multiletter control sequences out of 15000+50000
+ 9045 words of font info for 40 fonts, out of 3000000 for 9000
+ 212 hyphenation exceptions out of 8191
+ 27i,10n,20p,225b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <./8gfgdgg
+s0.600pk> <./d7fggfdgf0.600pk> <./sgffgdgd6if0.600pk> <./8gsdg0.600pk> <./ddg7g
+f0.600pk> <./sgff6dggif0.600pk> <./ds1sgk7dfs97ad.600pk> <./ds7dkfgs97ad.600pk>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
+.pfb>
+Output written on potts.pdf (18 pages, 308036 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+

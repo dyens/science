@@ -1,0 +1,267 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.25)  5 DEC 2011 16:46
+entering extended mode
+ %&-line parsing enabled.
+**euler.tex
+(./euler.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, bulgarian, ukrainian, russian, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@dimlist=\toks17
+)
+(/usr/share/texmf-texlive/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(/usr/share/texmf-texlive/tex/latex/pstricks-add/pstricks-add.sty
+(/usr/share/texmf-texlive/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2008/11/26 v0.40 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texmf-texlive/tex/generic/pstricks/pstricks.tex
+`PSTricks' v1.29  <2009/05/19> (tvz)
+\pst@dima=\dimen107
+\pst@dimb=\dimen108
+\pst@dimc=\dimen109
+\pst@dimd=\dimen110
+\pst@dimg=\dimen111
+\pst@dimh=\dimen112
+\pst@hbox=\box26
+\pst@boxg=\box27
+\pst@cnta=\count90
+\pst@cntb=\count91
+\pst@cntc=\count92
+\pst@cntd=\count93
+\pst@cntg=\count94
+\pst@cnth=\count95
+\pst@toks=\toks18
+(/usr/share/texmf-texlive/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen113
+\psxunit=\dimen114
+\psyunit=\dimen115
+\pslinewidth=\dimen116
+\pst@customdefs=\toks19
+\pslinearc=\dimen117
+\everypsbox=\toks20
+\psframesep=\dimen118
+\pslabelsep=\dimen119
+\pst@shift=\dimen120
+\theoverlaybox=\box28
+)
+File: pstricks.tex 2009/05/19 v1.29 `PSTricks' (tvz,hv)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count96
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+Package: pstricks-add 2009/03/17 v. 0.13 package wrapper for pstricks-add.tex (
+hv)
+
+(/usr/share/texmf-texlive/tex/generic/pstricks-add/pstricks-add.tex
+(/usr/share/texmf-texlive/tex/generic/pstricks/pst-plot.tex
+(/usr/share/texmf-texlive/tex/generic/multido/multido.tex
+ v1.41, 2004/05/18 <tvz>
+\multido@count=\count97
+\multidocount=\count98
+\multido@stuff=\toks21
+)  v1.04, 2009/06/08)
+(/usr/share/texmf-texlive/tex/generic/pstricks/pst-node.tex  v1.01, 2008/11/26
+\psrow=\count99
+\pscol=\count100
+\psmatrixcnt=\count101
+\psrowsep=\skip43
+\pscolsep=\skip44
+) (/usr/share/texmf-texlive/tex/generic/pst-3d/pst-3d.tex
+(/usr/share/texmf-texlive/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/share/texmf-texlive/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+\XKV@depth=\count102
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+)))
+`PST-3d' v1.00, 2005/09/03 (tvz))
+(/usr/share/texmf-texlive/tex/generic/pstricks-add/pst-fp.tex
+`pst-fp' v0.02, 2009/04/02 (hv)
+\pstFP@xs=\count103
+\pstFP@xia=\count104
+\pstFP@xib=\count105
+\pstFP@xfa=\count106
+\pstFP@xfb=\count107
+\pstFP@rega=\count108
+\pstFP@regb=\count109
+\pstFP@regs=\count110
+\pstFP@times=\count111
+)
+(/usr/share/texmf-texlive/tex/generic/pst-math/pst-math.tex
+`pst-math' v0.23 , (CJ,hv)) `pstricks-add' v3.35, 2009/10/12 (dr,hv)
+\pst@dimm=\dimen121
+\pst@dimn=\dimen122
+\pst@dimo=\dimen123
+\pst@dimp=\dimen124
+\pst@cntm=\count112
+\pst@cntn=\count113
+\pst@cnto=\count114
+\pst@cntp=\count115
+\@zero=\count116
+\pstRadUnit=\dimen125
+\pstRadUnitInv=\dimen126
+\pshooklength=\dimen127
+\pshookwidth=\dimen128
+\@digitcounter=\count117
+\psk@subticksize=\dimen129
+\pst@xticksizeA=\dimen130
+\pst@xticksizeB=\dimen131
+\pst@xticksizeC=\dimen132
+\pst@yticksizeA=\dimen133
+\pst@yticksizeB=\dimen134
+\pst@yticksizeC=\dimen135
+\psk@llx=\dimen136
+\psk@lly=\dimen137
+\psk@urx=\dimen138
+\psk@ury=\dimen139
+\pst@xunit=\dimen140
+\pst@yunit=\dimen141
+\linecnt=\count118
+\chart@ColorIndex=\dimen142
+\chart@ColorStep=\dimen143
+\pst@chartHeight=\dimen144
+\pst@chartStackDepth=\dimen145
+\pst@chartStackWidth=\dimen146
+\chart@Toggle=\count119
+)
+File: pstricks-add.tex 2009/10/12 v3.35 `PSTricks-add' (hv)
+)
+
+! LaTeX Error: File `animate.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.9 \usepackage
+               [frenchb]{babel}^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 4153 strings out of 494818
+ 55342 string characters out of 1178665
+ 185350 words of memory out of 3000000
+ 7329 multiletter control sequences out of 15000+50000
+ 4403 words of font info for 15 fonts, out of 3000000 for 9000
+ 212 hyphenation exceptions out of 8191
+ 37i,0n,39p,321b,37s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

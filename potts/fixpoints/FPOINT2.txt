@@ -1,0 +1,348 @@
+
+The ﬁxed points are physical iff they are IR stable and u ≥ 0, w ≥ 0.
+The β functions:
+5+α
+w − αf (a)w ,
+2
+5+α
+= w −ξ − R1 u/6 +
+w ,
+6
+= uR1 (1 − 3a)/2.
+
+βu = u −ε + Ru +
+
+(1)
+
+βw
+
+(2)
+
+βa
+
+(3)
+
+The stability matrix:
+Ωik = ∂βi /∂gk ,
+
+Ωi = Ωii ,
+
+(4)
+
+where i = u, w, a (no summation over i).
+Points with u = 0.
+Gaussian point (Point I): u = w = 0, a arbitrary. The only nonzero
+oﬀ-diagonal element is Ωau ; so the matrix Ω is triangular. Eigenvalues: −ε,
+−ξ, 0.
+Passive scalar point (Point III):
+
+u = 0,
+
+w=
+
+6ξ
+,
+5+α
+
+a arbitrary.
+
+(5)
+
+Now Ωua = Ωwa = 0, so that Ωa decouples. The eigenvalue is Ωa = 0.
+Ωuw = 0, so that the remaining 2 × 2 matrix is triangular, and Ωu , Ωw
+are eigenvalues:
+1
+
+Ωw = ξ,
+
+(6)
+
+Ωu = −ε + 3ξ − f (a)
+
+6αξ
+.
+5+α
+
+(7)
+
+Ωw > 0 also gives w > 0.
+The function f (a) has a minimum f (1/3) = 2/3. So in Ωu we can write
+f (a) = f (1/3) + [f (a) − f (1/3)]. This gives
+
+Ωu = Ωu |a=1/3 −
+
+6αξ
+[f (a) − f (1/3)] > 0
+5+α
+
+(8)
+
+The second term is negative, so (8) can be satisﬁed only if Ωu |a=1/3 > 0.
+This gives
+−(5 + α)ε + (15 − α)ξ > 0.
+
+(9)
+
+This is the domain in the ξ–ε plane where the point can be stable. Now
+(8) gives the restriction for a:
+6αξ[f (a) − f (1/3)] < −(5 + α)ε + (15 − α)ξ,
+
+(10)
+
+which gives
+(a − 1/3)2 <
+
+−(5 + α)ε + (15 − α)ξ
+.
+18αξ
+
+(11)
+
+Conclusion: the coordinates of the point are given by (5) and (11). The
+region of IR stability in the ξ–ε plane is given by (9) and ξ > 0. Then w > 0
+automatically.
+2
+
+For α = 0 the boundary is ξ = ε/3, when α grows, it rotates counter
+clockwise, and for α → ∞ tends to ξ = −ε. This is very similar to φ4 model.
+
+This is all about points with u = 0.
+Now let u > 0. Then from βa = 0 we have a = 1/3. Then Ωua = Ωwa = 0,
+and Ωa decouples again. The eigenvalue is Ωa = −3R1 u/2. This is positive
+only if R1 < 0. So in the following we assume R1 < 0 (the case R1 > 0
+requires a → ∞ and will be discussed later).
+We put a = 1/3 in βu,w and obtain a closed system of two β functions.
+Such systems we discussed earlier. In general,
+βu = u[−ε + Au + Bw],
+
+βw = w[−ξ + Cu + Dw].
+
+(12)
+
+Now
+A = R,
+and
+
+B = (15 − α)/6,
+
+C = −R1 /6 > 0,
+
+D = (5 + α)/6 > 0
+
+5
+α
+∆ = AD − BC = (R + R1 /2) + (R − R1 /6).
+6
+6
+
+(13)
+
+(14)
+
+Pure Potts point (Point II). Here w = 0, u = ε/R. Now Ωwu = 0 and the
+matrix is triangular. Then the point is IR stable for ε > 0 (so that R > 0
+if we want u > 0) and −ξ + Cu > 0. The last relation gives ξ < −R1 ε/6R
+(because A/C > 0).
+Thus the point
+u = ε/R,
+
+w = 0,
+
+a = 1/3
+
+can be physical only if R > 0, R1 < 0 (and any α) and is IR stable if
+ε > 0,
+
+ξ < −R1 ε/6R.
+
+3
+
+(15)
+
+Full-scale point (Point IV).
+
+u = (Dε − Bξ)/∆,
+
+w = (Aξ − Cε)/∆,
+
+(16)
+
+with ∆ from (14). This point can be physical only if ∆ > 0. Since D > 0,
+A = R can be of either sign.
+There are four cases (we recall that R1 < 0):
+Case IV-1. R > −R1 /2. Then authomatically R > 0, R − R1 /6 > 0.
+Thus ∆ > 0 for all α. The conditions that the point is IR attractive coincide
+with the conditions that its coordinates (16) are positive:
+u > 0,
+
+w > 0.
+
+(17)
+
+Case IV-2. −R1 /2 > R > 0. Then R − R1 /6 > 0. Thus ∆ < 0 for small
+α, but becomes positive for α > α0 , where
+α0 = −5
+
+(R + R1 /2)
+> 0.
+(R − R1 /6)
+
+(18)
+
+The conditions that the point is IR attractive are again (17).
+Case IV-3. 0 > R > R1 /6. Then R − R1 /6 > 0, and the point can be
+physical for α > α0 with the same α0 . Now A < 0, and the conditions that
+the point is physical are given by the inequalities
+u > 0,
+
+Au + Dw > 0.
+
+(19)
+
+Case IV-4. R < R1 /6. Then ∆ < 0 for all α, unphysical case.
+Now let us write the stability condition (17) for cases IV-1 and IV-2 in
+detail:
+(Aξ − Cε) > 0, (Dε − Bξ) > 0.
+(20)
+4
+
+Since R = A > 0, the ﬁrst is ξ > (C/A)ε.
+Since B > 0 for α < 15, the second inequality is ξ < (D/B)ε. It is also
+important that
+C D
+−∆
+−
+=
+<0
+A B
+AB
+so that
+C
+D
+< .
+A
+B
+Also note that (C/A) and D/B are positive. For α > 15, we have B < 0 and
+ξ > (D/B)ε, and now D/B < 0.
+Thus for α < 15, the physical region is the sector in the upper-right
+quadrant in the ε–ξ plane, bounded by the ray ξ = (C/A)ε from below and
+ξ = (D/B)ε from above.
+When α grows, the upper ray ξ = (D/B)ε rotates counter clockwise and
+moves to the upper-left quadrant. For case IV-1 α changes from 0 to ∞ and
+the ray changes from ξ = ε/3 to ξ = −ε (exactly like the boundary (9) of
+the point III).
+For case IV-2 α changes from α0 to ∞ and the ray changes from ξ =
+−εR1 /6R to ξ = −ε. Note that 1/3 < −R1 /6R (because R + R1 /2 < 0).
+Also note that for α = α0 the two boundaries of the point IV coincide with
+each other and with the boundary (15) of the point II. Also note that
+α0 − 15 =
+
+−20R
+< 0.
+(R − R1 /6)
+
+Case IV-3. The ﬁrst condition u > 0 in (19) is
+Bξ < εD.
+Now
+α0 − 15 = −20
+
+R
+>0
+(R − R1 /6)
+5
+
+so that B < 0 and we have
+ξ > εD/B,
+
+where D/B < 0.
+
+(21)
+
+The second condition Au + Dw > 0 in (19) is
+ξA(D − B) > εD(C − A)
+where A = R < 0 and D − B = (α − 5)/3 > 0. The last inequality holds
+because α > α0 and α0 − 5 > 0:
+α0 − 5 = −10
+
+(R + R1 /6)
+> 0.
+(R − R1 /6)
+
+Thus the second inequality is
+ξ<ε
+where
+
+D(C − A)
+,
+A(D − B)
+
+D(C − A)
+(5 + α)(R + R1 /6)
+=
+< 0.
+A(D − B)
+2R(5 − α)
+
+(22)
+
+(23)
+
+It is also important that
+D
+D(C − A)
+>
+B
+A(D − B)
+because
+
+(24)
+
+D(C − A) D
+−∆D
+−
+=
+< 0.
+A(D − B) B
+AB(D − B)
+
+Thus the both inequalities (21), (22) are satisﬁed in a sector in the upperleft quadrant; the lower bound is (21) and the upper bound is (22).
+From (23) it follows that, when α changes from α0 to ∞, the coeﬃcient
+D(C − A)/A(D − B) changes from −R1 /6R to −(R + R1 /6)/2R. The coeﬃcient D/B = (5 + α)/(15 − α) changes from −R1 /6R to −1. Thus for
+α = α0 the domain has zero width, and when α grows it is getting wider.
+6
+
+Now let R1 > 0. We are interesting only in points with u = 0. We pass
+to the new couplings b = 1/a and v = wa2 with the β functions
+βb = (−1/a2 )βa ,
+
+βv = a2 βw + 2awβa .
+
+(25)
+
+Then
+βb = −uR1 b(b − 3)/2.
+
+(26)
+
+The relevant ﬁxed point is b = 0 with Ωbv = Ωbu = 0, so that Ωb = 3uR1 /2 >
+0 (for u, R1 > 0) is the eigenvalue, and b decouples. We put b = 0 in the
+other functions and again obtain a closed system of the type (12):
+βu = u[−ε + Ru − 3αv],
+
+βv = v[−ξ − (19/6)uR1 ].
+
+(27)
+
+We immediately see that ∆ = −(19/2)αR1 < 0, so that the full-scale point
+u = 0, w = 0 cannot be physical.
+The other point is v = 0, u = ε/R, with the inequalities
+ε > 0,
+
+ξ < −ε(19/6)R1/R
+
+so that R > 0. The sector of stability is in the lower right quadrant. The
+point is similar to II because v = 0 and the advection is irrelevant.
+
+7
+
+

@@ -1,0 +1,112 @@
+\documentclass[12pt,a4paper,twoside]{book}
+
+%\input{definitions.tex}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        Титульная страница         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\input{cover.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Table of contents, Abstract, Notations, and so on...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Колонтитулы на пустой странице перед оглавлением %%%%
+
+%\lhead[\textbf{\thepage}]{\textbf{\rightmark}}
+%\rhead[\textbf{\leftmark}]{\textbf{\thepage}}
+%\cfoot[]{}
+%\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ \ #1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+%\pagestyle{fancy}
+%\pagenumbering{roman}
+
+
+%%% Table of Contents %%%
+
+%\lhead[\textbf{\thepage}]{\textbf{Оглавление}}
+%\rhead[\textbf{Оглавление}]{\textbf{\thepage}}
+\tableofcontents
+\pagenumbering{roman}
+%\newpage
+
+
+\newpage\renewcommand{\chaptername}{Глава}
+\newcounter{problem}[chapter]
+\renewcommand{\theproblem}{\arabic{chapter}.\arabic{problem}}
+\newcommand{\problems}{\vspace{20pt}\par\noindent{\bf\large Задачи к лекции}\nopagebreak\vspace{10pt}}
+\newenvironment{problem}{\par\refstepcounter{problem}\noindent{\textbf{Задача  \theproblem}}\it}{\hfill$\Box$}
+\newenvironment{conclusion}{\par\noindent{\textbf{Вывод.}}\samepage\it}{\hfill$\Box$}
+\newcommand{\microsection}[1]{\par\noindent\underline{\textbf{#1}}} % Определение microsection внутри глав 
+\renewcommand{\emph}[1]{\textbf{\textit{#1}}}
+
+\pagestyle{fancy}
+
+% ====================== Оформление приложений ===========================
+\makeatletter
+\renewcommand*\appendix{\par%
+  \setcounter{chapter}{0}%
+  \setcounter{section}{0}%
+  \gdef\@chapapp{\appendixname}%
+  \gdef\thechapter{\@Asbuk\c@chapter}%      % здесь Asbuk - счетчик дающий АБВГД вместо ABCDE
+  \csname appendixmore\endcsname
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Main body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{arabic}
+\lhead[\textbf{\thepage}]{\textbf{\rightmark}}
+\rhead[\textbf{\leftmark}]{\textbf{\thepage}}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ \ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+% patch
+\renewcommand{\th}{\theta}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%             Реферат               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\input{Text.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%            Библиография            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\begin{thebibliography}{}
+
+\bibitem{Vasiliev}
+Васильев А.Н.: Квантовополевая ренормгруппа в теории критического поведения и стохастической динамике, Санкт-Петербург, ПИЯФ (1998)
+
+\bibitem{Fisher}
+Фишер М.: Природа критического состояния, М., Мир (1968)
+
+\bibitem{Dyson-Montroll}
+Дайсон Ф., Монтролл Э., Кац М., Фишер М.: Устойчивость и фазовые переходы, М., Мир (1973)
+
+\bibitem{Brush}
+Stephen G. Brush: History of the Lenz — Ising Model. Reviews of modern Physics {\bf 39}, 883 (1967)
+
+\bibitem{Ising}
+Ising E.: Beitrag zur Theorie des Ferromagnetismus. Zeitschrift f$\ddot{u}$r Physik {\bf 31}, 253 (1925)
+
+\bibitem{Onsager}
+Onsager L.: Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition. Physical Review {\bf 65}, 117 (1944)
+
+\bibitem{Baxter}
+Бэкстер Р.: Точно решаемые модели в статистической механике, М., Мир (1985)
+
+\end{thebibliography}
+
+
+
+\end{document}

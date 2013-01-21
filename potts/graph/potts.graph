@@ -1,0 +1,17 @@
+#!/usr/bin/gnuplot -persist
+set terminal postscript eps enhanced
+set output "/share/science/potts/graph/out.ps"
+set encoding koi8r
+set xzeroaxis lt-1
+set yzeroaxis lt-1
+set xrange[-10:10]
+set yrange [-10:10]
+unset border
+unset tics
+set xlabel "{/Symbol e}" font "Helvetica,18"
+set ylabel "{/Symbol x}" font "Helvetica,18"
+set style line 1 lt 1 pt 7
+set style line 2 lt 2 pt 7
+plot x/3  title "blabalbal"  linestyle 1 ,\
+     -x   linestyle 2 
+
