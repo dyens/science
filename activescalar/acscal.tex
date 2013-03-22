@@ -34,18 +34,18 @@
 % END OF DEFINITIONS
 
 \begin{document}
-\section{Introduction} 
-\label{sec:Intro}
+%\section{Introduction} 
+%\label{sec:Intro}
 
 \section{Description of the model. Field theoretic formulation}
 \label{sec:QFT}
 \begin{equation}
-S_{v}(v^{'},v)=v^{'}D_{v}v^{'}/2+v^{'}\{-\nabla_{t}+\nu_{0}\partial^2\}v+\omega_{0}v^{'}_{i}(\partial_{i}\theta)\partial^{2}\theta
+    S_{v}(v^{'},v)=v^{'}D_{v}v^{'}/2+v^{'}\{-\nabla_{t}+\nu_{0}\partial^2\}v+\omega_{0}\nu_{0}^{3}v^{'}_{i}(\partial_{i}\theta)\partial^{2}\theta
 \end{equation}
 \begin{equation}
 S(v,v^{'},\theta,\theta^{'}) = S_{v}(v^{'},v)+\theta^{'}D_{\theta}\theta^{'}/2+\theta^{'}\{-\nabla_{t}+k_{0}\partial^{2}\}\theta
 \end{equation}
-Feynmam rules.
+Feynman rules.
 \begin{equation}
 \langle v,v^{'} \rangle_{0}=\langle v^{'},v \rangle _{0}^{T}=(-i\omega+\nu_{0}k^2)^{-1}
 \end{equation}
@@ -59,7 +59,7 @@ Feynmam rules.
 \langle \theta,\theta \rangle_{0}=K_{0}k^{2-d-y}(-i\omega+\nu_{0}k^2)^{-2}
 \end{equation}
 \begin{equation}
-\langle v_{i}^{'}, \theta,\theta \rangle_{0}= -i[p_i k^2+p^2 k_i]
+    \langle v_{i}^{'}, \theta,\theta \rangle_{0}= -i\omega_{0}\nu_{0}^{3}[p_i k^2+p^2 k_i]
 \end{equation}
 p,k - momentum of field $\theta$.
 \begin{equation}
@@ -73,25 +73,27 @@ p - momentum of field $v^{'}$.
 \section{Canonical dimensions, UV divergences and the renormalization}
 \label{sec:Reno}
 
+%\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+%\hline
+%$F$          & $\psi$ & $\psi^\dagger$ & $v$ & $\lambda_0,\lambda$ & $\tau_0,\tau$ & $ m,\mu,\Lambda$ & $g_0^2$ & $\omega_0$ & $g^2,\omega,\alpha,a_0,a$ \\
+%\hline
+%$d_F^k$      & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $-1$ & $-2$ & $2$ & $1$ & $2-d$ & $\xi$ & $0$ \\
+%\hline
+%$d_F^\omega$ & 0 & 0 & $1$ & $1$ & $0$ & $0$ & $2$ & $0$ & $0$ \\
+%\hline
+%$d_F$        & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $1$ & $0$ & $2$ & $1$ & $6-d$ & $\xi$ & $0$ \\
+%\hline
+%\end{tabular}
 
-\begin{tabular}{|c|c|c|c|}
-\hline  &  &  &  \\ 
-\hline  &  &  &  \\ 
-\hline  &  &  &  \\ 
-\hline  &  &  &  \\ 
-\hline 
-\end{tabular} 
-
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-$F$          & $\psi$ & $\psi^\dagger$ & $v$ & $\lambda_0,\lambda$ & $\tau_0,\tau$ & $ m,\mu,\Lambda$ & $g_0^2$ & $\omega_0$ & $g^2,\omega,\alpha,a_0,a$ \\
-\hline
-$d_F^k$      & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $-1$ & $-2$ & $2$ & $1$ & $2-d$ & $\xi$ & $0$ \\
-\hline
-$d_F^\omega$ & 0 & 0 & $1$ & $1$ & $0$ & $0$ & $2$ & $0$ & $0$ \\
-\hline
-$d_F$        & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $1$ & $0$ & $2$ & $1$ & $6-d$ & $\xi$ & $0$ \\
-\hline
+\begin{tabular} {|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    $F$            &  $v$   &   $v^{'}$  &   $\theta$            &     $\theta^{'}$            &        $\nu$     &     $\omega, \omega_{0}$    &      $D,D_{0}$     &   $k,k_{0}$      &   $g,g_{0}$       &   $u$    \\ \hline
+    $d_F^k$        &  $-1$  &   $d+1$    &   $-\frac{1}{2}z+1$   &     $d+\frac{1}{2}z-1$      &        $-2$      &     $z$                     &      $y-6$         &   $-2$           &   $y$             &    0     \\ \hline
+    $d_F^{\omega}$ &  $1$   &   $-1$     &   $-\frac{1}{2}$      &     $\frac{1}{2}$           &        $1$       &     $0$                     &      $3$           &   $1$            &   $0$             &    0     \\ \hline
+    $d_F$          &  $1$   &   $d-1$    &   $-\frac{1}{2}z$     &     $d+\frac{1}{2}z$        &        $0$       &     $z$                     &      $y$           &   $0$            &   $y$             &   $0$    \\ \hline
 \end{tabular}
+
+The role of the coupling constants is played by the parameters $g_0 = D/\nu^3_0, u_0 = k_0/\nu_0$, and $\omega_0$. The model is logarithmic at  $y = z = 0$.
+
 
 \end{document}
