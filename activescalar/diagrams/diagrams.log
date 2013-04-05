@@ -1,0 +1,232 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.14)  25 MAR 2013 14:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**diagrams.tex
+(./diagrams.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, bu
+lgarian, ukrainian, russian, loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/feynmf/feynmf.sty
+Package: feynmf 1996/12/02 v1.08 LaTeX/Metafont Feynman Diagram Package (ohl)
+\@outfmf=\write3
+\fmfbuf@=\toks14
+\c@fmfgraph=\count87
+\grep@infile=\read1
+\grep@outfile=\write4
+) (./diagrams.aux)
+\openout1 = `diagrams.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+
+
+feynmf: File ascalvvs.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ascalvvs.mf.
+feynmf: If dimension have changed, reprocess ascalvvs.mf and diagrams.tex.
+\openout3 = `ascalvvs.mf'.
+
+feynmf: Label file ascalvvs.t1 not found:
+feynmf: Process ascalvvs.mf with METAFONT and then reprocess this file.
+feynmf: Label file ascalvvs.t2 not found:
+feynmf: Process ascalvvs.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File ascalarthetastheta.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ascalarthetastheta.
+mf.
+feynmf: If dimension have changed, reprocess ascalarthetastheta.mf and diagrams
+.tex.
+\openout3 = `ascalarthetastheta.mf'.
+
+feynmf: Label file ascalarthetastheta.t1 not found:
+feynmf: Process ascalarthetastheta.mf with METAFONT and then reprocess this fil
+e.
+feynmf: Label file ascalarthetastheta.t2 not found:
+feynmf: Process ascalarthetastheta.mf with METAFONT and then reprocess this fil
+e.
+
+
+feynmf: File avvs1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avvs1.mf.
+feynmf: If dimension have changed, reprocess avvs1.mf and diagrams.tex.
+\openout3 = `avvs1.mf'.
+
+feynmf: Label file avvs1.t1 not found:
+feynmf: Process avvs1.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File avvs2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avvs2.mf.
+feynmf: If dimension have changed, reprocess avvs2.mf and diagrams.tex.
+\openout3 = `avvs2.mf'.
+
+feynmf: Label file avvs2.t1 not found:
+feynmf: Process avvs2.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File avvs3.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avvs3.mf.
+feynmf: If dimension have changed, reprocess avvs3.mf and diagrams.tex.
+\openout3 = `avvs3.mf'.
+
+feynmf: Label file avvs3.t1 not found:
+feynmf: Process avvs3.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File avvs4.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avvs4.mf.
+feynmf: If dimension have changed, reprocess avvs4.mf and diagrams.tex.
+\openout3 = `avvs4.mf'.
+
+feynmf: Label file avvs4.t1 not found:
+feynmf: Process avvs4.mf with METAFONT and then reprocess this file.
+
+Overfull \hbox (43.05113pt too wide) in alignment at lines 64--122
+ [][][] []
+ []
+
+
+
+feynmf: File avstt1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avstt1.mf.
+feynmf: If dimension have changed, reprocess avstt1.mf and diagrams.tex.
+\openout3 = `avstt1.mf'.
+
+feynmf: Label file avstt1.t1 not found:
+feynmf: Process avstt1.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File avstt2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avstt2.mf.
+feynmf: If dimension have changed, reprocess avstt2.mf and diagrams.tex.
+\openout3 = `avstt2.mf'.
+
+feynmf: Label file avstt2.t1 not found:
+feynmf: Process avstt2.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File avstt3.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avstt3.mf.
+feynmf: If dimension have changed, reprocess avstt3.mf and diagrams.tex.
+\openout3 = `avstt3.mf'.
+
+feynmf: Label file avstt3.t1 not found:
+feynmf: Process avstt3.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File avstt4.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess avstt4.mf.
+feynmf: If dimension have changed, reprocess avstt4.mf and diagrams.tex.
+\openout3 = `avstt4.mf'.
+
+feynmf: Label file avstt4.t1 not found:
+feynmf: Process avstt4.mf with METAFONT and then reprocess this file.
+
+Overfull \hbox (42.43309pt too wide) in alignment at lines 125--183
+ [][][] []
+ []
+
+
+
+feynmf: File atstv1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess atstv1.mf.
+feynmf: If dimension have changed, reprocess atstv1.mf and diagrams.tex.
+\openout3 = `atstv1.mf'.
+
+feynmf: Label file atstv1.t1 not found:
+feynmf: Process atstv1.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File atstv2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess atstv2.mf.
+feynmf: If dimension have changed, reprocess atstv2.mf and diagrams.tex.
+\openout3 = `atstv2.mf'.
+
+feynmf: Label file atstv2.t1 not found:
+feynmf: Process atstv2.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File atstv31.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess atstv31.mf.
+feynmf: If dimension have changed, reprocess atstv31.mf and diagrams.tex.
+\openout3 = `atstv31.mf'.
+
+feynmf: Label file atstv31.t1 not found:
+feynmf: Process atstv31.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File atstv4.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess atstv4.mf.
+feynmf: If dimension have changed, reprocess atstv4.mf and diagrams.tex.
+\openout3 = `atstv4.mf'.
+
+feynmf: Label file atstv4.t1 not found:
+feynmf: Process atstv4.mf with METAFONT and then reprocess this file.
+
+Overfull \hbox (42.43309pt too wide) in alignment at lines 186--244
+ [][][] []
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./diagrams.aux) ) 
+Here is how much of TeX's memory you used:
+ 417 strings out of 494816
+ 4236 string characters out of 3177878
+ 54213 words of memory out of 3000000
+ 3662 multiletter control sequences out of 15000+200000
+ 6574 words of font info for 37 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 22i,10n,19p,197b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <./atst
+v4.600pk> <./atstv31.600pk> <./atstv2.600pk> <./atstv1.600pk> <./avstt4.600pk> 
+<./avstt3.600pk> <./avstt2.600pk> <./avstt1.600pk> <./avvs4.600pk> <./avvs3.600
+pk> <./avvs2.600pk> <./avvs1.600pk> <./ascalarthetastheta.600pk> <./ascalvvs.60
+0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on diagrams.pdf (1 page, 84911 bytes).
+PDF statistics:
+ 108 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

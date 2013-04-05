@@ -1,0 +1,1498 @@
+This is METAFONT, Version 2.718281 (TeX Live 2012/Debian) (base=mf 2013.1.14)  25 MAR 2013 13:34
+**\mode:=ljfour; mag:=1; nonstopmode; input vvrule
+(/home/dyens/science/science/activescalar/diagrams/vvrule.mf
+(/usr/share/texmf/metafont/feynmf/feynmf.mf)
+>> 0.9se+0.1sw
+! Isolated expression.
+<to be read again> 
+                   ..
+curved_right_gallery->begingroup0.9[sw,se]..
+                                            0.5[se,ne]..0.1[ne,nw]endgroup
+right_gallery->begingroup.curved_right_gallery
+                                              .endgroup
+vright->begingroup.vdistribute(right_gallery
+                                            ,(TEXT2))endgroup
+l.4 vright (__r)
+                ;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   ..
+curved_right_gallery->begingroup0.9[sw,se]..
+                                            0.5[se,ne]..0.1[ne,nw]endgroup
+right_gallery->begingroup.curved_right_gallery
+                                              .endgroup
+vright->begingroup.vdistribute(right_gallery
+                                            ,(TEXT2))endgroup
+l.4 vright (__r)
+                ;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> vacuous
+! Not implemented: length(vacuous).
+<to be read again> 
+                   ;
+vdistribute->...v:=numv+1;fi.len:=length((EXPR2));
+                                                  if.numv=1:vforce(point.len...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+I'm afraid I don't know how to apply that operation to that
+particular type. Continue, and I'll simply return the
+argument (shown above) as the result of the operation.
+
+>> len
+>> vacuous
+! Equation cannot be performed (numeric=vacuous).
+<to be read again> 
+                   ;
+vdistribute->...v:=numv+1;fi.len:=length((EXPR2));
+                                                  if.numv=1:vforce(point.len...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> 0.5len
+>> vacuous
+! Not implemented: point(unknown numeric)of(vacuous).
+<to be read again> 
+                   ,
+vdistribute->...umv=1:vforce(point.len/2of(EXPR2),
+                                                  (TEXT3));else:off:=0;forsu...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...FIX2):=vlist.last;vlist[vhash(SUFFIX2)]
+                                                  name:=str(SUFFIX2);vlist[v...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0name
+>> "__r"
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+venter->...list[vhash(SUFFIX2)]name:=str(SUFFIX2);
+                                                  vlist[vhash(SUFFIX2)]loc:=...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...ame:=str(SUFFIX2);vlist[vhash(SUFFIX2)]
+                                                  loc:=(whatever,whatever);v...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0loc
+>> (xpart %CAPSULE6742,ypart %CAPSULE6742)
+! Equation cannot be performed (numeric=pair).
+<to be read again> 
+                   ;
+venter->...hash(SUFFIX2)]loc:=(whatever,whatever);
+                                                  vlist[vhash(SUFFIX2)]arc.f...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...hatever,whatever);vlist[vhash(SUFFIX2)]
+                                                  arc.first:=1;vlist[vhash(S...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...IX2)]arc.first:=1;vlist[vhash(SUFFIX2)]
+                                                  arc.last:=0;vlist[vhash(SU...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...FIX2)]arc.last:=0;vlist[vhash(SUFFIX2)]
+                                                  constr.first:=1;vlist[vhas...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...)]constr.first:=1;vlist[vhash(SUFFIX2)]
+                                                  constr.last:=0;vlist[vhash...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...2)]constr.last:=0;vlist[vhash(SUFFIX2)]
+                                                  lbl:="";vlist[vhash(SUFFIX...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0lbl
+>> ""
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+venter->...r.last:=0;vlist[vhash(SUFFIX2)]lbl:="";
+                                                  vlist[vhash(SUFFIX2)]lbl.a...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...(SUFFIX2)]lbl:="";vlist[vhash(SUFFIX2)]
+                                                  lbl.ang:=whatever;vlist[vh...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...lbl.ang:=whatever;vlist[vhash(SUFFIX2)]
+                                                  lbl.dist:=3thick;vlist[vha...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...]lbl.dist:=3thick;vlist[vhash(SUFFIX2)]
+                                                  poly.first:=1;vlist[vhash(...
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...X2)]poly.first:=1;vlist[vhash(SUFFIX2)]
+                                                  poly.last:=0;fi.endgroup
+<to be read again> 
+                   ;
+vforce->begingroup.venter(SUFFIX3);
+                                   vlist[vlookup(SUFFIX3)]loc:=(EXPR2);endgroup
+
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0loc
+>> vacuous
+! Equation cannot be performed (numeric=vacuous).
+<to be read again> 
+                   ;
+vforce->...3);vlist[vlookup(SUFFIX3)]loc:=(EXPR2);
+                                                  endgroup
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.4 vright (__r)
+                ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...FIX2):=vlist.last;vlist[vhash(SUFFIX2)]
+                                                  name:=str(SUFFIX2);vlist[v...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0name
+>> "__l"
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+venter->...list[vhash(SUFFIX2)]name:=str(SUFFIX2);
+                                                  vlist[vhash(SUFFIX2)]loc:=...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...ame:=str(SUFFIX2);vlist[vhash(SUFFIX2)]
+                                                  loc:=(whatever,whatever);v...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0loc
+>> (xpart %CAPSULE6179,ypart %CAPSULE6179)
+! Equation cannot be performed (numeric=pair).
+<to be read again> 
+                   ;
+venter->...hash(SUFFIX2)]loc:=(whatever,whatever);
+                                                  vlist[vhash(SUFFIX2)]arc.f...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...hatever,whatever);vlist[vhash(SUFFIX2)]
+                                                  arc.first:=1;vlist[vhash(S...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...IX2)]arc.first:=1;vlist[vhash(SUFFIX2)]
+                                                  arc.last:=0;vlist[vhash(SU...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...FIX2)]arc.last:=0;vlist[vhash(SUFFIX2)]
+                                                  constr.first:=1;vlist[vhas...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...)]constr.first:=1;vlist[vhash(SUFFIX2)]
+                                                  constr.last:=0;vlist[vhash...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...2)]constr.last:=0;vlist[vhash(SUFFIX2)]
+                                                  lbl:="";vlist[vhash(SUFFIX...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0lbl
+>> ""
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+venter->...r.last:=0;vlist[vhash(SUFFIX2)]lbl:="";
+                                                  vlist[vhash(SUFFIX2)]lbl.a...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...(SUFFIX2)]lbl:="";vlist[vhash(SUFFIX2)]
+                                                  lbl.ang:=whatever;vlist[vh...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...lbl.ang:=whatever;vlist[vhash(SUFFIX2)]
+                                                  lbl.dist:=3thick;vlist[vha...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...]lbl.dist:=3thick;vlist[vhash(SUFFIX2)]
+                                                  poly.first:=1;vlist[vhash(...
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...X2)]poly.first:=1;vlist[vhash(SUFFIX2)]
+                                                  poly.last:=0;fi.endgroup
+<to be read again> 
+                   ;
+<for(__l)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...FIX2):=vlist.last;vlist[vhash(SUFFIX2)]
+                                                  name:=str(SUFFIX2);vlist[v...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0name
+>> "__r"
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+venter->...list[vhash(SUFFIX2)]name:=str(SUFFIX2);
+                                                  vlist[vhash(SUFFIX2)]loc:=...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...ame:=str(SUFFIX2);vlist[vhash(SUFFIX2)]
+                                                  loc:=(whatever,whatever);v...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0loc
+>> (xpart %CAPSULE6133,ypart %CAPSULE6133)
+! Equation cannot be performed (numeric=pair).
+<to be read again> 
+                   ;
+venter->...hash(SUFFIX2)]loc:=(whatever,whatever);
+                                                  vlist[vhash(SUFFIX2)]arc.f...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...hatever,whatever);vlist[vhash(SUFFIX2)]
+                                                  arc.first:=1;vlist[vhash(S...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...IX2)]arc.first:=1;vlist[vhash(SUFFIX2)]
+                                                  arc.last:=0;vlist[vhash(SU...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...FIX2)]arc.last:=0;vlist[vhash(SUFFIX2)]
+                                                  constr.first:=1;vlist[vhas...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...)]constr.first:=1;vlist[vhash(SUFFIX2)]
+                                                  constr.last:=0;vlist[vhash...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...2)]constr.last:=0;vlist[vhash(SUFFIX2)]
+                                                  lbl:="";vlist[vhash(SUFFIX...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0lbl
+>> ""
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+venter->...r.last:=0;vlist[vhash(SUFFIX2)]lbl:="";
+                                                  vlist[vhash(SUFFIX2)]lbl.a...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...(SUFFIX2)]lbl:="";vlist[vhash(SUFFIX2)]
+                                                  lbl.ang:=whatever;vlist[vh...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...lbl.ang:=whatever;vlist[vhash(SUFFIX2)]
+                                                  lbl.dist:=3thick;vlist[vha...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...]lbl.dist:=3thick;vlist[vhash(SUFFIX2)]
+                                                  poly.first:=1;vlist[vhash(...
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist.last
+! Improper subscript has been replaced by zero.
+venter->...X2)]poly.first:=1;vlist[vhash(SUFFIX2)]
+                                                  poly.last:=0;fi.endgroup
+<to be read again> 
+                   ;
+<for(__r)> venter(SUFFIX0);
+                           nto:=vlookup(SUFFIX0);if.known.nfrom:vlist[nfrom]...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+>> vlist0arc1lbl
+>> ""
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+<for(__r)> ...om]arc[vlist[nfrom]arc.last]lbl:="";
+                                                  vlist[nfrom]arc[vlist[nfro...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist0arc1lbl.side
+>> ""
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+<for(__r)> ...c[vlist[nfrom]arc.last]lbl.side:="";
+                                                  vlist[nfrom]arc[vlist[nfro...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist0arc1sty
+>> "dashes_arrow"
+! Equation cannot be performed (numeric=string).
+<to be read again> 
+                   ;
+handle_line_style->...e(EXPR3):(SUFFIX2):=(EXPR3);
+                                                  else:errhelp"feynmf: your ...
+<for(__r)> ...om]arc[vlist[nfrom]arc.last]sty,sty)
+                                                  ;vlist[nto]arc[vlist[nto]a...
+
+vconnect->...rom]arc.last]lsr;fi.nfrom:=nto;endfor
+                                                  .endgroup
+l.5 vconnect ("dashes_arrow", __l, __r)
+                                       ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.first
+! Improper initial value has been replaced by 0.
+<to be read again> 
+                   step
+upto->step
+          1until
+vertices->vlist.first.upto
+                          .vlist.last
+vfreeze->begingroup.for.i=vertices
+                                  :if.unknown.vlist[i]loc:origin=origin.for....
+l.6 vfreeze
+           ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist.last
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vfreeze->begingroup.for.i=vertices:
+                                   if.unknown.vlist[i]loc:origin=origin.for....
+l.6 vfreeze
+           ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> (0,0)
+>> 0
+! Not implemented: (pair)+(known numeric).
+<to be read again> 
+                   ;
+<for(0)> ...]]cnt,vlist[(EXPR0)]poly[j]idx)endfor;
+                                                  fi ENDFOR
+vfreeze->...nt,vlist[i]poly[j]idx)endfor;fi.endfor
+                                                  .if.vtracing:vdump;fi.endg...
+l.6 vfreeze
+           ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> (0,0)
+>> 0
+! Equation cannot be performed (pair=numeric).
+<to be read again> 
+                   ;
+<for(0)> ...]]cnt,vlist[(EXPR0)]poly[j]idx)endfor;
+                                                  fi ENDFOR
+vfreeze->...nt,vlist[i]poly[j]idx)endfor;fi.endfor
+                                                  .if.vtracing:vdump;fi.endg...
+l.6 vfreeze
+           ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.first
+! Improper initial value has been replaced by 0.
+<to be read again> 
+                   step
+upto->step
+          1until
+vertices->vlist.first.upto
+                          .vlist.last
+vcheck_typos->...ean.wrn;wrn:=false;for.i=vertices
+                                                  :save.connections;connecti...
+
+vdraw->begingroup.if.not.feynmfwizard:vcheck_typos
+                                                  ;fi.for.i=vertices:if.not....
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist.last
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vcheck_typos->...an.wrn;wrn:=false;for.i=vertices:
+                                                  save.connections;connectio...
+
+vdraw->begingroup.if.not.feynmfwizard:vcheck_typos
+                                                  ;fi.for.i=vertices:if.not....
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist.first
+! Improper initial value has been replaced by 0.
+<to be read again> 
+                   step
+upto->step
+          1until
+vertices->vlist.first.upto
+                          .vlist.last
+vdraw->...nmfwizard:vcheck_typos;fi.for.i=vertices
+                                                  :if.not.known.vlist[i]loc:...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist.last
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vdraw->...mfwizard:vcheck_typos;fi.for.i=vertices:
+                                                  if.not.known.vlist[i]loc:e...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> "feynmf: vertex `"
+>> vlist0name
+! Not implemented: (string)&(unknown numeric).
+<to be read again> 
+                   &
+<for(0)> ..."feynmf: vertex `"&vlist[(EXPR0)]name&
+                                                  "' not determined, "&"repl...
+
+vdraw->...:vlist[i]decor.size=decor_size;fi.endfor
+                                                  .for.i=vertices:for.j=varc...
+l.7 vdraw
+         ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> vlist0name
+>> "' not determined, "
+! Not implemented: (unknown numeric)&(string).
+<to be read again> 
+                   &
+<for(0)> ...ist[(EXPR0)]name&"' not determined, "&
+                                                  "replaced by `(0,0)'.";vli...
+
+vdraw->...:vlist[i]decor.size=decor_size;fi.endfor
+                                                  .for.i=vertices:for.j=varc...
+l.7 vdraw
+         ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+! ' not determined, replaced by `(0,0)'..
+<to be read again> 
+                   ;
+<for(0)> ... determined, "&"replaced by `(0,0)'.";
+                                                  vlist[(EXPR0)]loc:=origin;...
+
+vdraw->...:vlist[i]decor.size=decor_size;fi.endfor
+                                                  .for.i=vertices:for.j=varc...
+l.7 vdraw
+         ;
+Your graph specification was not complete (probably a lone vertex).            
+Check logic and reprocess!
+
+>> vlist0loc
+>> (0,0)
+! Equation cannot be performed (numeric=pair).
+<to be read again> 
+                   ;
+<for(0)> ...y `(0,0)'.";vlist[(EXPR0)]loc:=origin;
+                                                  fi.if.unknown.vlist[(EXPR0...
+
+vdraw->...:vlist[i]decor.size=decor_size;fi.endfor
+                                                  .for.i=vertices:for.j=varc...
+l.7 vdraw
+         ;
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> vlist.first
+! Improper initial value has been replaced by 0.
+<to be read again> 
+                   step
+upto->step
+          1until
+vertices->vlist.first.upto
+                          .vlist.last
+vdraw->...size=decor_size;fi.endfor.for.i=vertices
+                                                  :for.j=varcs(i):if.known.v...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist.last
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vdraw->...ize=decor_size;fi.endfor.for.i=vertices:
+                                                  for.j=varcs(i):if.known.vl...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> plist.first
+! Improper initial value has been replaced by 0.
+<to be read again> 
+                   step
+upto->step
+          1until
+polygons->plist.first.upto
+                          .plist.last
+vdraw->...up;fi.fi.fi.endfor;endfor.for.i=polygons
+                                                  :vdraw_label(pcenter.plist...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> plist.last
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vdraw->...p;fi.fi.fi.endfor;endfor.for.i=polygons:
+                                                  vdraw_label(pcenter.plist[...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> plist0cnt
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+pcenter->...ngroup(origin.for.i=1upto(SUFFIX2)cnt:
+                                                  +vlist[(SUFFIX2)vtx[i]]loc...
+<to be read again> 
+                   ,
+<for(0)> vdraw_label(pcenter.plist[(EXPR0)],
+                                            plist[(EXPR0)]lbl);vdraw_polygon...
+
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> (0,0)
+>> plist0cnt
+! Not implemented: (pair)/(unknown numeric).
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   ,
+<for(0)> vdraw_label(pcenter.plist[(EXPR0)],
+                                            plist[(EXPR0)]lbl);vdraw_polygon...
+
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> plist0lbl
+>> ""
+! Not implemented: (unknown numeric)<>(string).
+<to be read again> 
+                   :
+vdraw_label->begingroup.if(SUFFIX3)<>"":
+                                        save.a;numeric.a;if(SUFFIX3)dist=0:L...
+<for(0)> ...nter.plist[(EXPR0)],plist[(EXPR0)]lbl)
+                                                  ;vdraw_polygon.plist[(EXPR...
+
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> ""
+! Undefined condition will be treated as `false'.
+<to be read again> 
+                   :
+vdraw_label->begingroup.if(SUFFIX3)<>"":
+                                        save.a;numeric.a;if(SUFFIX3)dist=0:L...
+<for(0)> ...nter.plist[(EXPR0)],plist[(EXPR0)]lbl)
+                                                  ;vdraw_polygon.plist[(EXPR...
+
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+The expression shown above should have had a definite
+true-or-false value. I'm changing it to `false'.
+
+>> plist0cnt
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vbuild_polygon->...1)else:for.i=1upto(SUFFIX2)cnt:
+                                                  vlist[(SUFFIX2)vtx[i]]loc....
+<to be read again> 
+                   )
+vdraw_polygon->...e:cdraw(vbuild_polygon(SUFFIX2))
+                                                  ;fi.endgroup
+<to be read again> 
+                   ;
+<for(0)> ...R0)]lbl);vdraw_polygon.plist[(EXPR0)];
+                                                   ENDFOR
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+! A primary expression can't begin with `endgroup'.
+<inserted text> 
+                0
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   )
+vdraw_polygon->...e:cdraw(vbuild_polygon(SUFFIX2))
+                                                  ;fi.endgroup
+<to be read again> 
+                   ;
+<for(0)> ...R0)]lbl);vdraw_polygon.plist[(EXPR0)];
+                                                   ENDFOR
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+>> false
+>> (0,0,1,0,0,1)
+! Not implemented: (boolean)transformed(transform).
+<to be read again> 
+                   withpen
+draw->...urrentpicture.doublepath(EXPR0)t_.withpen
+                                                  .currentpen
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   ;
+vdraw_polygon->...:cdraw(vbuild_polygon(SUFFIX2));
+                                                  fi.endgroup
+<to be read again> 
+                   ;
+<for(0)> ...R0)]lbl);vdraw_polygon.plist[(EXPR0)];
+                                                   ENDFOR
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> (0,0,1,0,0,1)
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...urrentpicture.doublepath(EXPR0)t_.withpen
+                                                  .currentpen
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   ;
+vdraw_polygon->...:cdraw(vbuild_polygon(SUFFIX2));
+                                                  fi.endgroup
+<to be read again> 
+                   ;
+<for(0)> ...R0)]lbl);vdraw_polygon.plist[(EXPR0)];
+                                                   ENDFOR
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+This expression should have been a known path.
+So I'll not change anything just now.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   withpen
+draw->...urrentpicture.doublepath(EXPR0)t_.withpen
+                                                  .currentpen
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   ;
+vdraw_polygon->...:cdraw(vbuild_polygon(SUFFIX2));
+                                                  fi.endgroup
+<to be read again> 
+                   ;
+<for(0)> ...R0)]lbl);vdraw_polygon.plist[(EXPR0)];
+                                                   ENDFOR
+vdraw->...ist[i]lbl);vdraw_polygon.plist[i];endfor
+                                                  .for.i=vertices:vdraw_labe...
+l.7 vdraw
+         ;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> vlist.first
+! Improper initial value has been replaced by 0.
+<to be read again> 
+                   step
+upto->step
+          1until
+vertices->vlist.first.upto
+                          .vlist.last
+vdraw->...w_polygon.plist[i];endfor.for.i=vertices
+                                                  :vdraw_label(vlist[i]loc,v...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist.last
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vdraw->..._polygon.plist[i];endfor.for.i=vertices:
+                                                  vdraw_label(vlist[i]loc,vl...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist0lbl
+>> ""
+! Not implemented: (unknown numeric)<>(string).
+<to be read again> 
+                   :
+vdraw_label->begingroup.if(SUFFIX3)<>"":
+                                        save.a;numeric.a;if(SUFFIX3)dist=0:L...
+<for(0)> ...l(vlist[(EXPR0)]loc,vlist[(EXPR0)]lbl)
+                                                  ;vdraw_vertex.vlist[(EXPR0...
+
+vdraw->...list[i]lbl);vdraw_vertex.vlist[i];endfor
+                                                  .for.i=vertices:for.j=varc...
+l.7 vdraw
+         ;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> ""
+! Undefined condition will be treated as `false'.
+<to be read again> 
+                   :
+vdraw_label->begingroup.if(SUFFIX3)<>"":
+                                        save.a;numeric.a;if(SUFFIX3)dist=0:L...
+<for(0)> ...l(vlist[(EXPR0)]loc,vlist[(EXPR0)]lbl)
+                                                  ;vdraw_vertex.vlist[(EXPR0...
+
+vdraw->...list[i]lbl);vdraw_vertex.vlist[i];endfor
+                                                  .for.i=vertices:for.j=varc...
+l.7 vdraw
+         ;
+The expression shown above should have had a definite
+true-or-false value. I'm changing it to `false'.
+
+>> vlist.first
+! Improper initial value has been replaced by 0.
+<to be read again> 
+                   step
+upto->step
+          1until
+vertices->vlist.first.upto
+                          .vlist.last
+vdraw->...aw_vertex.vlist[i];endfor.for.i=vertices
+                                                  :for.j=varcs(i):if.known.v...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+>> vlist.last
+! Improper final value has been replaced by 0.
+<to be read again> 
+                   :
+vdraw->...w_vertex.vlist[i];endfor.for.i=vertices:
+                                                  for.j=varcs(i):if.known.vl...
+l.7 vdraw
+         ;
+When you say `for x=a step b until c',
+the initial value `a' and the step size `b'
+and the final value `c' must have known numeric values.
+I'm zeroing this one. Proceed, with fingers crossed.
+
+! Extra `endgroup'.
+endsubgraph->endgroup
+                     
+l.8 endsubgraph
+               ;
+I'm not currently working on a `begingroup',
+so I had better not try to end anything.
+
+>> w
+! Internal quantity `chardx' must receive a known value.
+<to be read again> 
+                   ;
+endchar->...ing>0:makebox(proofrule);fi.chardx:=w;
+                                                  shipit;if.displaying>0:mak...
+l.9 endchar
+           ;
+I can't set an internal quantity to anything but a known
+numeric value, so I'll have to ignore this assignment.
+
+[0]
+! Extra `endgroup'.
+endchar->...makebox(screenrule);showit;fi.endgroup
+                                                  
+l.9 endchar
+           ;
+I'm not currently working on a `begingroup',
+so I had better not try to end anything.
+
+)
+! Emergency stop.
+<*> ...:=ljfour; mag:=1; nonstopmode; input vvrule
+                                                  
+*** (job aborted, no legal end found)
+
+ 
+Here is how much of METAFONT's memory you used:
+ 601 strings out of 5274
+ 7060 string characters out of 69995
+ 27970 words of memory out of 3000000
+ 1377 symbolic tokens out of 9500
+ 12i,67n,4r,22p,142b stack positions out of 300i,300n,1000r,150p,200000b
+ 
+(You used 2w,1h,1d,1i,0l,0k,0e,0p metric file positions
+  out of 256w,16h,16d,64i,15000l,2500k,256e,60p)
+Font metrics written on vvrule.tfm.
+Output written on vvrule.600gf (1 character, 100 bytes).

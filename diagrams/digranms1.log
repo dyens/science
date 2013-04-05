@@ -1,0 +1,224 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.14)  25 MAR 2013 11:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**digranms1.tex
+(./digranms1.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, bu
+lgarian, ukrainian, russian, loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/feynmf/feynmf.sty
+Package: feynmf 1996/12/02 v1.08 LaTeX/Metafont Feynman Diagram Package (ohl)
+\@outfmf=\write3
+\fmfbuf@=\toks14
+\c@fmfgraph=\count87
+\grep@infile=\read1
+\grep@outfile=\write4
+) (./digranms1.aux)
+\openout1 = `digranms1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+
+
+feynmf: File d67d9f7ad.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess d67d9f7ad.mf.
+feynmf: If dimension have changed, reprocess d67d9f7ad.mf and digranms1.tex.
+\openout3 = `d67d9f7ad.mf'.
+
+feynmf: Label file d67d9f7ad.t1 not found:
+feynmf: Process d67d9f7ad.mf with METAFONT and then reprocess this file.
+feynmf: Label file d67d9f7ad.t2 not found:
+feynmf: Process d67d9f7ad.mf with METAFONT and then reprocess this file.
+
+Overfull \hbox (56.90492pt too wide) in paragraph at lines 32--32
+[][] 
+ []
+
+Missing character: There is no Â in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ÿ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ð in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no ë in font cmr12!
+
+
+feynmf: File fmftempl.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess fmftempl.mf.
+feynmf: If dimension have changed, reprocess fmftempl.mf and digranms1.tex.
+\openout3 = `fmftempl.mf'.
+
+feynmf: Label file fmftempl.t1 not found:
+feynmf: Process fmftempl.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File ee-psi-ee.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ee-psi-ee.mf.
+feynmf: If dimension have changed, reprocess ee-psi-ee.mf and digranms1.tex.
+\openout3 = `ee-psi-ee.mf'.
+
+feynmf: Label file ee-psi-ee.t1 not found:
+feynmf: Process ee-psi-ee.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File eyeglassesss.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess eyeglassesss.mf.
+feynmf: If dimension have changed, reprocess eyeglassesss.mf and digranms1.tex.
+
+\openout3 = `eyeglassesss.mf'.
+
+
+
+feynmf: File ds7dkfs97ad.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ds7dkfs97ad.mf.
+feynmf: If dimension have changed, reprocess ds7dkfs97ad.mf and digranms1.tex.
+\openout3 = `ds7dkfs97ad.mf'.
+
+feynmf: Label file ds7dkfs97ad.t1 not found:
+feynmf: Process ds7dkfs97ad.mf with METAFONT and then reprocess this file.
+feynmf: Label file ds7dkfs97ad.t2 not found:
+feynmf: Process ds7dkfs97ad.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File ds1sk7dfs97ad.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess ds1sk7dfs97ad.mf.
+feynmf: If dimension have changed, reprocess ds1sk7dfs97ad.mf and digranms1.tex
+.
+\openout3 = `ds1sk7dfs97ad.mf'.
+
+feynmf: Label file ds1sk7dfs97ad.t1 not found:
+feynmf: Process ds1sk7dfs97ad.mf with METAFONT and then reprocess this file.
+feynmf: Label file ds1sk7dfs97ad.t2 not found:
+feynmf: Process ds1sk7dfs97ad.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File sgf6if0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess sgf6if0.mf.
+feynmf: If dimension have changed, reprocess sgf6if0.mf and digranms1.tex.
+\openout3 = `sgf6if0.mf'.
+
+feynmf: Label file sgf6if0.t1 not found:
+feynmf: Process sgf6if0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File d7f0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess d7f0.mf.
+feynmf: If dimension have changed, reprocess d7f0.mf and digranms1.tex.
+\openout3 = `d7f0.mf'.
+
+feynmf: Label file d7f0.t1 not found:
+feynmf: Process d7f0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File 8s0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess 8s0.mf.
+feynmf: If dimension have changed, reprocess 8s0.mf and digranms1.tex.
+\openout3 = `8s0.mf'.
+
+feynmf: Label file 8s0.t1 not found:
+feynmf: Process 8s0.mf with METAFONT and then reprocess this file.
+
+Overfull \hbox (13.32388pt too wide) in alignment at lines 135--177
+ [][][] []
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+feynmf: File sgffgd6if0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess sgffgd6if0.mf.
+feynmf: If dimension have changed, reprocess sgffgd6if0.mf and digranms1.tex.
+\openout3 = `sgffgd6if0.mf'.
+
+feynmf: Label file sgffgd6if0.t1 not found:
+feynmf: Process sgffgd6if0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File d7fdgf0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess d7fdgf0.mf.
+feynmf: If dimension have changed, reprocess d7fdgf0.mf and digranms1.tex.
+\openout3 = `d7fdgf0.mf'.
+
+feynmf: Label file d7fdgf0.t1 not found:
+feynmf: Process d7fdgf0.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File 8ddgs0.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess 8ddgs0.mf.
+feynmf: If dimension have changed, reprocess 8ddgs0.mf and digranms1.tex.
+\openout3 = `8ddgs0.mf'.
+
+feynmf: Label file 8ddgs0.t1 not found:
+feynmf: Process 8ddgs0.mf with METAFONT and then reprocess this file.
+
+Overfull \hbox (5.24165pt too wide) in alignment at lines 180--222
+ [][][] []
+ []
+
+[2] (./digranms1.aux) ) 
+Here is how much of TeX's memory you used:
+ 413 strings out of 494816
+ 4239 string characters out of 3177878
+ 53213 words of memory out of 3000000
+ 3660 multiletter control sequences out of 15000+200000
+ 6547 words of font info for 35 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 22i,10n,19p,198b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <./8ddgs0.600pk> <./d7fdgf0.600pk> <./sgffgd6if0.600pk>
+ <./8s0.600pk> <./d7f0.600pk> <./sgf6if0.600pk> <./ds1sk7dfs97ad.600pk> <./ds7d
+kfs97ad.600pk> <./eyeglassesss.600pk> <./ee-psi-ee.600pk> <./fmftempl.600pk> <.
+/d67d9f7ad.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on digranms1.pdf (2 pages, 114409 bytes).
+PDF statistics:
+ 110 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
