@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.5.20)  10 JUN 2013 18:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  25 JUN 2013 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,11 +99,20 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
-)) (./gribov.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+(./gribov.aux)
 \openout1 = `gribov.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -118,29 +127,110 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen112
+\scratchbox=\box28
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen113
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-Overfull \hbox (42.83617pt too wide) detected at line 49
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Overfull \hbox (93.96257pt too wide) detected at line 47
 \OML/cmm/m/it/12 S[]\OT1/cmr/m/n/12 ([][]\OML/cmm/m/it/12 ; \OT1/cmr/bx/n/12 v\
 OML/cmm/m/it/12 ;  ;  []\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12  []\OT1/cmr/m/n/12
  [\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 @[] \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12
- (\OT1/cmr/bx/n/12 v\OMS/cmsy/m/n/12 r\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 D[]\
-OMS/cmsy/m/n/12 r[] ^^@ \OML/cmm/m/it/12 D[]^^\[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it
-/12   \OT1/cmr/m/n/12 + [][(\OML/cmm/m/it/12  []\OT1/cmr/m/n/12 )\OML/cmm/m/it/
-12   \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12  [] []\OT1/cmr/m/n/12 ] \OMS/cmsy/m/
-n/12 ^^@ []\OT1/cmr/bx/n/12 v\OML/cmm/m/it/12 D[]\OT1/cmr/bx/n/12 v \OT1/cmr/m/
-n/12 + []\OML/cmm/m/it/12   []\OT1/cmr/bx/n/12 v[]\OML/cmm/m/it/12 :
+ (\OT1/cmr/bx/n/12 v\OMS/cmsy/m/n/12 r\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \O
+ML/cmm/m/it/12 a[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 r\OT1/cmr/bx/n/12 v\OT1/cmr
+/m/n/12 ) + \OML/cmm/m/it/12 D[]\OMS/cmsy/m/n/12 r[] ^^@ \OML/cmm/m/it/12 D[]^^
+\[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12   \OT1/cmr/m/n/12 + [][(\OML/cmm/m/it/12  
+[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12   \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12  []
+ []\OT1/cmr/m/n/12 ] \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/bx/n/12 v\OML/cmm/m/it/12 
+D[]\OT1/cmr/bx/n/12 v \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12   []\OT1/cmr/bx/n/12
+ v[]\OML/cmm/m/it/12 :
  []
 
 [1
 
-] (./gribov.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./gribov.aux) ) 
 Here is how much of TeX's memory you used:
- 1214 strings out of 494817
- 13423 string characters out of 3177901
- 73087 words of memory out of 3000000
- 4444 multiletter control sequences out of 15000+200000
+ 2176 strings out of 494816
+ 28276 string characters out of 3177878
+ 93696 words of memory out of 3000000
+ 5357 multiletter control sequences out of 15000+200000
  8584 words of font info for 31 fonts, out of 3000000 for 9000
  198 hyphenation exceptions out of 8191
- 27i,9n,20p,237b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,8n,23p,232b,113s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy8.pfb>
+Output written on gribov.pdf (1 page, 91162 bytes).
+PDF statistics:
+ 44 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on gribov.dvi (1 page, 4980 bytes).

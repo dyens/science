@@ -34,18 +34,16 @@
 % END OF DEFINITIONS
 
 \begin{document}
-%\section{Introduction} 
-%\label{sec:Intro}
-
 \section{Description of the model. Field theoretic formulation}
 \label{sec:QFT}
 
 \begin{equation}
     S_{0}(\bfv ',\bfv,\psi,\psi^{\dagger})=
-    \psi^{\dagger}[-\partial_t-(\bfv\nabla)+D_{0}\nabla^2-D_{0}\tau_{0}]\psi
+    \psi^{\dagger}[-\partial_t-(\bfv\nabla)-a_0(\nabla\bfv)+D_{0}\nabla^2-D_{0}\tau_{0}]\psi
     +\frac{D_{0}\lambda_{0}}{2}[(\psi^{\dagger})\psi-\psi^{\dagger}\psi^2] 
     -\frac{1}{2}\bfv D^{-1}_{v}\bfv
-    +\frac{u_2}{2D}\psi\psi^{\dagger}\bfv^2.
+    +\frac{u_{20}}{2D_{0}}\psi\psi^{\dagger}\bfv^2.
+    \label{action}
 \end{equation}
 
 \begin{equation}
@@ -54,56 +52,60 @@
 \end{equation}
 
 \begin{equation}
-    D_v(\omega,k) = \frac{g_{10}D^{3}_{0}k^{4-d-2\epsilon-\eta}}{\omega^2+u_{10}^{2}D_{0}^{2}(k^{2-\eta})^2} 
+    D_v(\omega,k) = \frac{u_{10}g_{10}D^{3}_{0}k^{4-d-2\epsilon-\eta}}{\omega^2+u_{10}^{2}D_{0}^{2}(k^{2-\eta})^2} 
 \end{equation}
 
-Feynman rules.
+Feynman rules. 
 
 \begin{equation}
-    <\psi, \psi^{\dagger}> = (i \omega+D(k^2+\tau))^{-1}
+    <\psi, \psi^{\dagger}> = (i \omega+D_{0}(k^2+\tau))^{-1}
 \end{equation}
 
 \begin{equation}
-    <\psi^{\dagger}, \psi> = (-i \omega+D(k^2+\tau))^{-1}
+    <\psi^{\dagger}, \psi> = (-i \omega+D_{0}(k^2+\tau))^{-1}
 \end{equation}
 
 \begin{equation}
     <v_{i}, v_{j}> = 
-        g_{1}D^{3}k^{4-d-2\epsilon}(P_{ij}^{\perp}+\alpha P_{ij}^{\parallel})
-        (\omega^2+u_{1}^{2}D^{2}k^{2})^{-1}
+    u_{10}g_{10}D_{0}^{3}k^{4-d-2\epsilon-\eta}(P_{ij}^{\perp}+\alpha P_{ij}^{\parallel})
+    (\omega^2+u_{10}^{2}D_{0}^{2}k^{4-2\eta})^{-1}
 \end{equation}
 
 \begin{equation}
-    <\psi, \psi, \psi^{\dagger}>= D\lambda
+    <\psi, \psi, \psi^{\dagger}>= D_{0}\lambda_{0}
 \end{equation}
 
 \begin{equation}
-    <\psi, \psi^{\dagger}, \psi^{\dagger}>= -D\lambda
+    <\psi, \psi^{\dagger}, \psi^{\dagger}>= -D_{0}\lambda_{0}
 \end{equation}
 
 \begin{equation}
-    <\psi, \psi^{\dagger}, v_{i}>= -ik_{i}
+    <\psi, \psi^{\dagger}, v_{i}>= -ik_{i}-ia_{0}q_{i}
 \end{equation}
-k- momentum of the $\psi^{\dagger}$.
+k- momentum of the $\psi$, q- momentum of the $v$.
 
 \begin{equation}
-    <\psi, \psi^{\dagger}, v_{i}, v_{j}>= \frac{u_{2}}{D}\delta_{ij}
+    <\psi, \psi^{\dagger}, v_{i}, v_{j}>= \frac{u_{20}}{D_{0}}\delta_{ij}
 \end{equation}
 
 \section{Canonical dimensions, UV divergences and the renormalization}
 \label{sec:Reno}
 
-%\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
-%\hline
-%$F$          & $\psi$ & $\psi^\dagger$ & $v$ & $\lambda_0,\lambda$ & $\tau_0,\tau$ & $ m,\mu,\Lambda$ & $g_0^2$ & $\omega_0$ & $g^2,\omega,\alpha,a_0,a$ \\
-%\hline
-%$d_F^k$      & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $-1$ & $-2$ & $2$ & $1$ & $2-d$ & $\xi$ & $0$ \\
-%\hline
-%$d_F^\omega$ & 0 & 0 & $1$ & $1$ & $0$ & $0$ & $2$ & $0$ & $0$ \\
-%\hline
-%$d_F$        & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $1$ & $0$ & $2$ & $1$ & $6-d$ & $\xi$ & $0$ \\
-%\hline
-%\end{tabular}
+New constant $g_{20}=\lambda^2_{0}$. 
+$d=4-2\delta$
+
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+$F$ & $\psi$ & $\psi^\dagger$ & $v$ & $D_0$ & $\tau_0$ & $ \lambda_0$ & $g_{10}$ & $g_{20}$ & $u_{10}$ & $u_{20}$ \\
+\hline
+$d_F^k$      & $\frac{d}{2}$ & $\frac{d}{2}$ & $-1$ & $-2$ & $2$ & $\delta$ & $2\epsilon$ & $2\delta$ & $\eta$ & $0$ \\
+\hline
+$d_F^\omega$ & $0$ & $0$ & $1$ & $1$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$\\
+\hline
+$d_F$        & $\frac{d}{2}$ & $\frac{d}{2}$ & $1$ & $0$ & $2$ & $\delta$ & $2\epsilon$ & $2\delta$ & $\eta$ & $0$ \\
+\hline
+\end{tabular}
 
 
 \end{document}

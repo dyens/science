@@ -32,16 +32,16 @@
 \end{fmffile}
 \end{eqnarray}
 
-%%theta' theta
+%%psi psi'
 \begin{eqnarray}
-\begin{fmffile}{ascalarthetastheta}
-    \langle \theta^{'} \theta \rangle _{1-ir}= 
-\parbox{30mm}{
-\begin{fmfgraph*}(30,20)
-\fmfright{i}
-  \fmfleft{o}
-  \fmfdot{v1,v2}
-  \fmf{plain,tension=3}{i,v1}
+\begin{fmffile}{gribovpsipsi}
+    \langle \psi \psi^{'} \rangle _{1-ir}= 
+        \parbox{30mm}{
+            \begin{fmfgraph*}(30,20)
+                \fmfright{i}
+                \fmfleft{o}
+                \fmfdot{v1,v2}
+                \fmf{plain,tension=3}{i,v1}
   \fmf{fermion,tension=3}{o,v2}
   \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
   \fmf{dashes,right,left=0.7, tension=.5}{v1,v2}

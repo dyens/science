@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.5.20)  13 JUL 2013 15:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.5.20)  2 SEP 2013 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**acscal.tex
-(./acscal.tex
+**gribov.tex
+(./gribov.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, bu
 lgarian, ukrainian, russian, loaded.
@@ -90,6 +90,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -103,32 +110,53 @@ Package graphics Info: Driver file: dvips.def on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
-)) (./acscal.aux)
-\openout1 = `acscal.aux'.
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (./gribov.aux)
+\openout1 = `gribov.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
-[1
 
-] (./acscal.aux) ) 
+! LaTeX Error: Cannot determine size of graphic in psipsi1.ps (no BoundingBox).
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \includegraphics{psipsi1.ps}
+                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: psipsi1.ps Graphic file (type eps)
+<psipsi1.ps> [1
+
+] (./gribov.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1209 strings out of 494817
- 13370 string characters out of 3177901
- 73087 words of memory out of 3000000
- 4441 multiletter control sequences out of 15000+200000
- 7656 words of font info for 28 fonts, out of 3000000 for 9000
+ 1279 strings out of 494817
+ 14430 string characters out of 3177901
+ 66505 words of memory out of 3000000
+ 4512 multiletter control sequences out of 15000+200000
+ 4544 words of font info for 17 fonts, out of 3000000 for 9000
  198 hyphenation exceptions out of 8191
- 27i,9n,20p,292b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,4n,20p,223b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on acscal.dvi (1 page, 4892 bytes).
+Output written on gribov.dvi (1 page, 384 bytes).
