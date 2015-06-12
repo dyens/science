@@ -1,0 +1,295 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2014.2.6)  18 AUG 2014 00:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**./diagrams.tex
+(./diagrams.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, bu
+lgarian, russian, ukrainian, loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-site/tex/latex/feynmf/feynmf.sty
+Package: feynmf 1996/12/02 v1.08 LaTeX/Metafont Feynman Diagram Package (ohl)
+\@outfmf=\write3
+\fmfbuf@=\toks14
+\c@fmfgraph=\count87
+\grep@infile=\read1
+\grep@outfile=\write4
+) (./diagrams.aux)
+\openout1 = `diagrams.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+
+
+feynmf: File psidpsidpotts.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psidpsidpotts.mf.
+feynmf: If dimension have changed, reprocess psidpsidpotts.mf and diagrams.tex.
+
+\openout3 = `psidpsidpotts.mf'.
+
+feynmf: Label file psidpsidpotts.t1 not found:
+feynmf: Process psidpsidpotts.mf with METAFONT and then reprocess this file.
+feynmf: Label file psidpsidpotts.t2 not found:
+feynmf: Process psidpsidpotts.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File psipsipotts.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipotts.mf.
+feynmf: If dimension have changed, reprocess psipsipotts.mf and diagrams.tex.
+\openout3 = `psipsipotts.mf'.
+
+feynmf: Label file psipsipotts.t1 not found:
+feynmf: Process psipsipotts.mf with METAFONT and then reprocess this file.
+feynmf: Label file psipsipotts.t2 not found:
+feynmf: Process psipsipotts.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File psipsipsidpotts1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipsidpotts1.mf
+.
+feynmf: If dimension have changed, reprocess psipsipsidpotts1.mf and diagrams.t
+ex.
+\openout3 = `psipsipsidpotts1.mf'.
+
+feynmf: Label file psipsipsidpotts1.t1 not found:
+feynmf: Process psipsipsidpotts1.mf with METAFONT and then reprocess this file.
+
+
+
+feynmf: File psipsipsidpotts2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipsidpotts2.mf
+.
+feynmf: If dimension have changed, reprocess psipsipsidpotts2.mf and diagrams.t
+ex.
+\openout3 = `psipsipsidpotts2.mf'.
+
+feynmf: Label file psipsipsidpotts2.t1 not found:
+feynmf: Process psipsipsidpotts2.mf with METAFONT and then reprocess this file.
+
+
+
+feynmf: File psipsipsidpotts3.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipsidpotts3.mf
+.
+feynmf: If dimension have changed, reprocess psipsipsidpotts3.mf and diagrams.t
+ex.
+\openout3 = `psipsipsidpotts3.mf'.
+
+feynmf: Label file psipsipsidpotts3.t1 not found:
+feynmf: Process psipsipsidpotts3.mf with METAFONT and then reprocess this file.
+
+
+
+feynmf: File psipsipsidpotts4.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipsidpotts4.mf
+.
+feynmf: If dimension have changed, reprocess psipsipsidpotts4.mf and diagrams.t
+ex.
+\openout3 = `psipsipsidpotts4.mf'.
+
+feynmf: Label file psipsipsidpotts4.t1 not found:
+feynmf: Process psipsipsidpotts4.mf with METAFONT and then reprocess this file.
+
+
+Overfull \hbox (113.15419pt too wide) in alignment at lines 66--121
+ [][][] []
+ []
+
+
+
+feynmf: File psipsidvpotts1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsidvpotts1.mf.
+feynmf: If dimension have changed, reprocess psipsidvpotts1.mf and diagrams.tex
+.
+\openout3 = `psipsidvpotts1.mf'.
+
+feynmf: Label file psipsidvpotts1.t1 not found:
+feynmf: Process psipsidvpotts1.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File psipsidvpotts2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsidvpotts2.mf.
+feynmf: If dimension have changed, reprocess psipsidvpotts2.mf and diagrams.tex
+.
+\openout3 = `psipsidvpotts2.mf'.
+
+feynmf: Label file psipsidvpotts2.t1 not found:
+feynmf: Process psipsidvpotts2.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File psipsidvpotts3.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsidvpotts3.mf.
+feynmf: If dimension have changed, reprocess psipsidvpotts3.mf and diagrams.tex
+.
+\openout3 = `psipsidvpotts3.mf'.
+
+feynmf: Label file psipsidvpotts3.t1 not found:
+feynmf: Process psipsidvpotts3.mf with METAFONT and then reprocess this file.
+
+Overfull \hbox (49.50682pt too wide) in alignment at lines 124--166
+ [][][] []
+ []
+
+
+
+feynmf: File psipsidgribov.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsidgribov.mf.
+feynmf: If dimension have changed, reprocess psipsidgribov.mf and diagrams.tex.
+
+\openout3 = `psipsidgribov.mf'.
+
+feynmf: Label file psipsidgribov.t1 not found:
+feynmf: Process psipsidgribov.mf with METAFONT and then reprocess this file.
+feynmf: Label file psipsidgribov.t2 not found:
+feynmf: Process psipsidgribov.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File psidpsidpsigribov1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psidpsidpsigribov1.
+mf.
+feynmf: If dimension have changed, reprocess psidpsidpsigribov1.mf and diagrams
+.tex.
+\openout3 = `psidpsidpsigribov1.mf'.
+
+feynmf: Label file psidpsidpsigribov1.t1 not found:
+feynmf: Process psidpsidpsigribov1.mf with METAFONT and then reprocess this fil
+e.
+
+
+feynmf: File psidpsidpsigribov2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psidpsidpsigribov2.
+mf.
+feynmf: If dimension have changed, reprocess psidpsidpsigribov2.mf and diagrams
+.tex.
+\openout3 = `psidpsidpsigribov2.mf'.
+
+feynmf: Label file psidpsidpsigribov2.t1 not found:
+feynmf: Process psidpsidpsigribov2.mf with METAFONT and then reprocess this fil
+e.
+
+
+feynmf: File psidpsidpsigribov3.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psidpsidpsigribov3.
+mf.
+feynmf: If dimension have changed, reprocess psidpsidpsigribov3.mf and diagrams
+.tex.
+\openout3 = `psidpsidpsigribov3.mf'.
+
+feynmf: Label file psidpsidpsigribov3.t1 not found:
+feynmf: Process psidpsidpsigribov3.mf with METAFONT and then reprocess this fil
+e.
+
+Overfull \hbox (29.3516pt too wide) in alignment at lines 200--242
+ [][][] []
+ []
+
+[1
+
+]
+
+feynmf: File psipsipsidgribov1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipsidgribov1.m
+f.
+feynmf: If dimension have changed, reprocess psipsipsidgribov1.mf and diagrams.
+tex.
+\openout3 = `psipsipsidgribov1.mf'.
+
+feynmf: Label file psipsipsidgribov1.t1 not found:
+feynmf: Process psipsipsidgribov1.mf with METAFONT and then reprocess this file
+.
+
+
+feynmf: File psipsipsidgribov2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipsidgribov2.m
+f.
+feynmf: If dimension have changed, reprocess psipsipsidgribov2.mf and diagrams.
+tex.
+\openout3 = `psipsipsidgribov2.mf'.
+
+feynmf: Label file psipsipsidgribov2.t1 not found:
+feynmf: Process psipsipsidgribov2.mf with METAFONT and then reprocess this file
+.
+
+
+feynmf: File psipsipsidgribov3.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsipsidgribov3.m
+f.
+feynmf: If dimension have changed, reprocess psipsipsidgribov3.mf and diagrams.
+tex.
+\openout3 = `psipsipsidgribov3.mf'.
+
+feynmf: Label file psipsipsidgribov3.t1 not found:
+feynmf: Process psipsipsidgribov3.mf with METAFONT and then reprocess this file
+.
+
+Overfull \hbox (25.07376pt too wide) in alignment at lines 248--290
+ [][][] []
+ []
+
+
+
+feynmf: File psipisdvgribov1.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipisdvgribov1.mf.
+
+feynmf: If dimension have changed, reprocess psipisdvgribov1.mf and diagrams.te
+x.
+\openout3 = `psipisdvgribov1.mf'.
+
+feynmf: Label file psipisdvgribov1.t1 not found:
+feynmf: Process psipisdvgribov1.mf with METAFONT and then reprocess this file.
+
+
+feynmf: File psipsidvgribov2.tfm found.
+feynmf: Nevertheless, if the picture has changed, reprocess psipsidvgribov2.mf.
+
+feynmf: If dimension have changed, reprocess psipsidvgribov2.mf and diagrams.te
+x.
+\openout3 = `psipsidvgribov2.mf'.
+
+feynmf: Label file psipsidvgribov2.t1 not found:
+feynmf: Process psipsidvgribov2.mf with METAFONT and then reprocess this file.
+[2] (./diagrams.aux) ) 
+Here is how much of TeX's memory you used:
+ 424 strings out of 494820
+ 4598 string characters out of 3178912
+ 55213 words of memory out of 3000000
+ 3666 multiletter control sequences out of 15000+200000
+ 6631 words of font info for 41 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 22i,10n,19p,199b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on diagrams.dvi (2 pages, 3532 bytes).

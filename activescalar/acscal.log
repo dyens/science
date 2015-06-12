@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.4.10)  10 APR 2013 22:19
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.5.20)  13 JUL 2013 15:32
+>>>>>>> f2a0779de1934a586ac8175fea979f3289ce0973
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -25,6 +29,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 
+<<<<<<< HEAD
 ! LaTeX Error: File `feynmf.sty' not found.
 
 Type X to quit or <RETURN> to proceed,
@@ -48,3 +53,44 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  22i,0n,19p,214b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (./acscal.aux)
+\openout1 = `acscal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+
+[1
+
+] (./acscal.aux) ) 
+Here is how much of TeX's memory you used:
+ 1209 strings out of 494817
+ 13370 string characters out of 3177901
+ 73087 words of memory out of 3000000
+ 4441 multiletter control sequences out of 15000+200000
+ 7656 words of font info for 28 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 27i,9n,20p,292b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on acscal.dvi (1 page, 4892 bytes).
+>>>>>>> f2a0779de1934a586ac8175fea979f3289ce0973

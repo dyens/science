@@ -1,0 +1,419 @@
+
+\documentclass[12pt]{article}
+\textwidth = 15cm \oddsidemargin = 1.5cm \topmargin = -3cm
+\textheight = 21cm
+%\usepackage[russian]{babel}
+%\usepackage{graphicx}
+\usepackage{feynmf}
+\unitlength=1mm
+\begin{document}
+
+
+%%%TODO:!!!
+\begin{eqnarray}
+\begin{fmffile}{psipsidA}
+    \langle \psi^{\dag} \psi^{\dag} \rangle _{1-ir}= 2\lambda Z_{5} + \frac{1}{2}
+\parbox{30mm}{
+\begin{fmfgraph*}(30,20)
+\fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1}
+  \fmf{plain,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v1}
+  \fmf{plain, tension=.9}{v1,v1}
+    \end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+ \fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{plain,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v2}
+  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{photon,right,left=0.7, tension=.5}{v1,v2}
+   \end{fmfgraph*}}
+\end{fmffile}
+\end{eqnarray}
+
+
+
+\begin{eqnarray*}
+\langle \psi\psi\psi^{\dag}\rangle _{1-ir} =
+-g\lambda\mu^{\frac{\epsilon}{2}}Z_4+{
+\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts1}\begin{fmfgraph*}(25,40)
+  \fmfleft{l1,d1,l2}
+  \fmfright{r1,d2,r2}
+  \fmfdot{v1,v2}
+  \fmf{plain,tension=20}{v2,r1}
+  \fmf{plain,tension=20}{v2,r2}
+  \fmf{fermion,tension=20}{l1,v1}
+  \fmf{plain,tension=20}{v1,l2}
+  \fmf{fermion,right=0.7, left, tension=.4}{v1,v2}
+  \fmf{plain,left=0.7, right, tension=.4}{v1,v2}
+   \end{fmfgraph*}
+   \end{fmffile}}}
+   +\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts2}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+    \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{photon,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}} +
+ \parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts3}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{plain,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}} +
+\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts4}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{plain,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   \end{eqnarray*}
+
+
+
+
+
+
+%% POTTS MODEL
+%%%phi'phi'
+%\begin{eqnarray}
+%\begin{fmffile}{psidpsidpotts}
+%    \langle \psi^{\dag} \psi^{\dag} \rangle _{1-ir}= 2\lambda Z_{5} + \frac{1}{2}
+%\parbox{30mm}{
+%\begin{fmfgraph*}(30,20)
+%\fmfright{i}
+%  \fmfleft{o}
+%  \fmfdot{v1,v2}
+%  \fmf{fermion,tension=3}{i,v1}
+%  \fmf{fermion,tension=3}{o,v2}
+%  \fmf{plain,right,left=0.7, tension=.5}{v2,v1}
+%  \fmf{plain,right,left=0.7, tension=.5}{v1,v2}
+%    \end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+% \fmfright{i}
+%  \fmfleft{o}
+%  \fmfdot{v1,v2}
+%  \fmf{fermion,tension=3}{i,v1}
+%  \fmf{fermion,tension=3}{o,v2}
+%  \fmf{plain,right,left=0.7, tension=.5}{v2,v1}
+%  \fmf{photon,right,left=0.7, tension=.5}{v1,v2}
+%   \end{fmfgraph*}}
+%\end{fmffile}
+%\end{eqnarray}
+%
+%%%phi phi'
+%\begin{eqnarray}
+%\begin{fmffile}{psipsipotts}
+%\langle \psi \psi^{\dag} \rangle _{1-ir}=  Z_{1} i\omega - \lambda\left( Z_{2} k^2- Z_{3}\tau\right)+
+%\parbox{30mm}{
+%\begin{fmfgraph*}(30,20)
+%\fmfright{i}
+%  \fmfleft{o}
+%  \fmfdot{v1,v2}
+%  \fmf{plain,tension=3}{i,v1}
+%  \fmf{fermion,tension=3}{o,v2}
+%  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+%  \fmf{plain,right,left=0.7, tension=.5}{v1,v2}
+%    \end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+% \fmfright{i}
+%  \fmfleft{o}
+%  \fmfdot{v1,v2}
+%  \fmf{plain,tension=3}{i,v1}
+%  \fmf{fermion,tension=3}{o,v2}
+%  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+%  \fmf{photon,right,left=0.7, tension=.5}{v1,v2}
+%   \end{fmfgraph*}}
+%\end{fmffile}
+%\end{eqnarray}
+%
+%
+%
+%
+%%%psi psi psidag
+%\begin{eqnarray*}
+%\langle \psi\psi\psi^{\dag}\rangle _{1-ir} =
+%-g\lambda\mu^{\frac{\epsilon}{2}}Z_4+{
+%\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts1}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{plain,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v3,v1}
+%  \fmf{fermion,tension=.4}{v1,v2}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}}
+%   +\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts2}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%    \fmf{plain,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v3,v1}
+%  \fmf{photon,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}} +
+% \parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts3}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v3,v1}
+%  \fmf{plain,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}} +
+%\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidpotts4}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{plain,tension=.4}{v3,v1}
+%  \fmf{fermion,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}
+%   \end{eqnarray*}
+%
+%%%psi psidag v
+%\begin{eqnarray*}
+%\langle \psi\psi^{\dag}v\rangle _{1-ir} =
+%-i(k_{i}Z_1+aq_iZ_6)+{
+%\parbox[c]{30mm}{\center\begin{fmffile}{psipsidvpotts1}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{photon,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{plain,tension=.4}{v3,v1}
+%  \fmf{fermion,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}}
+%   +\parbox[c]{30mm}{\center\begin{fmffile}{psipsidvpotts2}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{photon,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v3,v1}
+%  \fmf{plain,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}} +
+% \parbox[c]{30mm}{\center\begin{fmffile}{psipsidvpotts3}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{photon,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{plain,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v3,v1}
+%  \fmf{fermion,tension=.4}{v1,v2}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}
+%   \end{eqnarray*}
+%
+%
+%
+%
+%
+%% Gribov MODEL
+%%%phi phi'
+%\begin{eqnarray}
+%\begin{fmffile}{psipsidgribov}
+%\langle \psi^{\dag} \psi \rangle _{1-ir}=  Z_{1} i\omega - \lambda\left( Z_{2} k^2- Z_{3}\tau\right)+ \frac{1}{2}
+%\parbox{30mm}{
+%\begin{fmfgraph*}(30,20)
+%\fmfright{i}
+%  \fmfleft{o}
+%  \fmfdot{v1,v2}
+%  \fmf{plain,tension=3}{i,v1}
+%  \fmf{fermion,tension=3}{o,v2}
+%  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+%  \fmf{fermion,left,right=0.7, tension=.5}{v2,v1}
+%    \end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+% \fmfright{i}
+%  \fmfleft{o}
+%  \fmfdot{v1,v2}
+%  \fmf{plain,tension=3}{i,v1}
+%  \fmf{fermion,tension=3}{o,v2}
+%  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+%  \fmf{photon,right,left=0.7, tension=.5}{v1,v2}
+%   \end{fmfgraph*}}
+%\end{fmffile}
+%\end{eqnarray}
+%
+%
+%%%psidag psidag psi
+%\begin{eqnarray*}
+%\langle \psi^{\dag}\psi^{\dag}\psi\rangle _{1-ir} =
+%-g\lambda\mu^{\frac{\epsilon}{2}}Z_4+ 2{
+%\parbox[c]{30mm}{\center\begin{fmffile}{psidpsidpsigribov1}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{fermion,tension=3}{r,v2}
+%  \fmf{fermion,tension=3}{l,v1}
+%  \fmf{fermion,tension=.4}{v2,v3}
+%  \fmf{fermion,tension=.4}{v1,v3}
+%  \fmf{fermion,tension=.4}{v1,v2}
+%  \fmf{plain,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}}
+%   +\parbox[c]{30mm}{\center\begin{fmffile}{psidpsidpsigribov2}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{fermion,tension=3}{r,v2}
+%  \fmf{fermion,tension=3}{l,v1}
+%  \fmf{fermion,tension=.4}{v2,v3}
+%  \fmf{fermion,tension=.4}{v1,v3}
+%  \fmf{photon,tension=.4}{v2,v1}
+%  \fmf{plain,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}} + 2
+% \parbox[c]{30mm}{\center\begin{fmffile}{psidpsidpsigribov3}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{fermion,tension=3}{r,v2}
+%  \fmf{fermion,tension=3}{l,v1}
+%  \fmf{fermion,tension=.4}{v2,v3}
+%  \fmf{fermion,tension=.4}{v1,v2}
+%  \fmf{photon,tension=.4}{v1,v3}
+%  \fmf{plain,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}
+%   \end{eqnarray*}
+%
+%
+%
+%
+%%%psi psi psidag
+%\begin{eqnarray*}
+%\langle \psi\psi\psi^{\dag}\rangle _{1-ir} =
+%-g\lambda\mu^{\frac{\epsilon}{2}}Z_5+2{
+%\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidgribov1}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v3,v1}
+%  \fmf{fermion,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}}
+%   +\parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidgribov2}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v3,v1}
+%  \fmf{photon,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}} + 2
+% \parbox[c]{30mm}{\center\begin{fmffile}{psipsipsidgribov3}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{plain,tension=3}{v1,l}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{photon,tension=.4}{v3,v1}
+%  \fmf{fermion,tension=.4}{v2,v1}
+%  \fmf{fermion,tension=3}{t,v3}
+%   \end{fmfgraph*}
+%   \end{fmffile}}
+%   \end{eqnarray*}
+%
+%%%psi psidag v
+%\begin{eqnarray*}
+%\langle \psi\psi^{\dag}v\rangle _{1-ir} =
+%-i(k_{i}Z_1+aq_iZ_6)+{
+%\parbox[c]{30mm}{\center\begin{fmffile}{psipisdvgribov1}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{fermion,tension=3}{l,v1}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v1,v3}
+%  \fmf{fermion,tension=.4}{v1,v2}
+%  \fmf{photon,tension=3}{t,v3}
+%  \end{fmfgraph*}
+%  \end{fmffile}}}
+%  +\parbox[c]{30mm}{\center\begin{fmffile}{psipsidvgribov2}\begin{fmfgraph*}(25,40)
+%  \fmfright{r}
+%  \fmfleft{l}
+%  \fmftop{t}
+%  \fmfdot{v1,v2,v3}
+%  \fmf{plain,tension=3}{v2,r}
+%  \fmf{fermion,tension=3}{l,v1}
+%  \fmf{fermion,tension=.4}{v3,v2}
+%  \fmf{fermion,tension=.4}{v1,v3}
+%  \fmf{photon,tension=.4}{v2,v1}
+%  \fmf{photon,tension=3}{t,v3}
+%  \end{fmfgraph*}
+%  \end{fmffile}}
+%  \end{eqnarray*}
+
+
+
+
+
+
+
+
+\end{document}

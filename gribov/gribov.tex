@@ -1,0 +1,111 @@
+\documentclass[12pt]{article}
+\textwidth = 15cm \oddsidemargin = 1.5cm \topmargin = -3cm \textheight = 21cm
+%%\usepackage[russian]{babel}
+\usepackage{feynmf}
+\usepackage{amsmath} %% подключение математического пакета
+%\usepackage{epstopdf}
+%\usepackage{graphicx}
+\usepackage{graphics}
+\unitlength=1mm
+%\documentstyle[12pt]{article}
+%\renewcommand{\textheight}{22 cm}
+%\renewcommand{\textwidth}{16 cm}
+%\oddsidemargin 0cm \addtolength\topmargin{-2cm}
+
+% DEFINITIONS
+\def\eps{\varepsilon}
+\def\epsilon{\varepsilon}
+\def\Dm{\widetilde{\cal D}_{\mu}}
+\def\const{{\rm const\,}}
+\def\D{{\cal D}}
+\def\L{{\cal L}}
+\def\A{{\cal A}}
+\def\S{{\cal S}}
+\def\x{{\bf x}}
+\def\p{{\bf p}}
+\def\k{{\bf k}}
+\def\q{{\bf q}}
+\def\r{{\bf r}}
+\def\h{{\bf h}}
+\def\n{{\bf n}}
+\def\bfx{{\bf x}}
+\def\bfv{{\bf v}}
+\def\bfu{{\bf u}}
+% END OF DEFINITIONS
+
+\begin{document}
+\section{Description of the model. Field theoretic formulation}
+\label{sec:QFT}
+
+\begin{equation}
+    S_{0}(\bfv ',\bfv,\psi,\psi^{\dagger})=
+    \psi^{\dagger}[-\partial_t-(\bfv\nabla)-a_0(\nabla\bfv)+D_{0}\nabla^2-D_{0}\tau_{0}]\psi
+    +\frac{D_{0}\lambda_{0}}{2}[(\psi^{\dagger})\psi-\psi^{\dagger}\psi^2] 
+    -\frac{1}{2}\bfv D^{-1}_{v}\bfv
+    +\frac{u_{20}}{2D_{0}}\psi\psi^{\dagger}\bfv^2.
+    \label{action}
+\end{equation}
+
+\begin{equation}
+    <v_{i}(t,x)v_{j}(t',x')>=\int \frac {d \omega dk}{(2\pi)^{d+1}}
+    (P_{ij}^{\perp}+\alpha P_{ij}^{\parallel})D_{v}(\omega,k)e^{-i \omega (t-t')+ik(x-x')}
+\end{equation}
+
+\begin{equation}
+    D_v(\omega,k) = \frac{u_{10}g_{10}D^{3}_{0}k^{4-d-2\epsilon-\eta}}{\omega^2+u_{10}^{2}D_{0}^{2}(k^{2-\eta})^2} 
+\end{equation}
+
+Feynman rules. 
+
+\begin{equation}
+    <\psi, \psi^{\dagger}> = (i \omega+D_{0}(k^2+\tau))^{-1}
+\end{equation}
+
+\begin{equation}
+    <\psi^{\dagger}, \psi> = (-i \omega+D_{0}(k^2+\tau))^{-1}
+\end{equation}
+
+\begin{equation}
+    <v_{i}, v_{j}> = 
+    u_{10}g_{10}D_{0}^{3}k^{4-d-2\epsilon-\eta}(P_{ij}^{\perp}+\alpha P_{ij}^{\parallel})
+    (\omega^2+u_{10}^{2}D_{0}^{2}k^{4-2\eta})^{-1}
+\end{equation}
+
+\begin{equation}
+    <\psi, \psi, \psi^{\dagger}>= D_{0}\lambda_{0}
+\end{equation}
+
+\begin{equation}
+    <\psi, \psi^{\dagger}, \psi^{\dagger}>= -D_{0}\lambda_{0}
+\end{equation}
+
+\begin{equation}
+    <\psi, \psi^{\dagger}, v_{i}>= -ik_{i}-ia_{0}q_{i}
+\end{equation}
+k- momentum of the $\psi$, q- momentum of the $v$.
+
+\begin{equation}
+    <\psi, \psi^{\dagger}, v_{i}, v_{j}>= \frac{u_{20}}{D_{0}}\delta_{ij}
+\end{equation}
+
+\section{Canonical dimensions, UV divergences and the renormalization}
+\label{sec:Reno}
+
+New constant $g_{20}=\lambda^2_{0}$. 
+$d=4-2\delta$
+
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+$F$ & $\psi$ & $\psi^\dagger$ & $v$ & $D_0$ & $\tau_0$ & $ \lambda_0$ & $g_{10}$ & $g_{20}$ & $u_{10}$ & $u_{20}$ \\
+\hline
+$d_F^k$      & $\frac{d}{2}$ & $\frac{d}{2}$ & $-1$ & $-2$ & $2$ & $\delta$ & $2\epsilon$ & $2\delta$ & $\eta$ & $0$ \\
+\hline
+$d_F^\omega$ & $0$ & $0$ & $1$ & $1$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$\\
+\hline
+$d_F$        & $\frac{d}{2}$ & $\frac{d}{2}$ & $1$ & $0$ & $2$ & $\delta$ & $2\epsilon$ & $2\delta$ & $\eta$ & $0$ \\
+\hline
+\end{tabular}
+
+
+\end{document}

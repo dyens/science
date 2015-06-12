@@ -32,59 +32,63 @@
 \def\bfv{{\bf v}}
 \def\bfu{{\bf u}}
 % END OF DEFINITIONS
+% WORK CHANGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TODO:
+%Саша,
+%я тут взялся за активное поле. В Вашем тексте в (8) и (9) лишний минус (как я думаю) - там ведь эти члены с минусом в действии, а потом интегрируется по частям. 
+%Также мне кажется, что в члене с W_0 по физике надо поставить минус, а W_0 считать положительным.
+%Дело в том что первые две диаграммы дают как бы добавку к вязкости за счет турбулентности, а она должна быть положительной. 
+%Я их сосчитал, первая видимо самая злостная, я считал без всяких хитростей и получил старый ответ. 
+%Вторая неожиданно простая (если не вру), а знак хороший будет если сменить знак у новой вершины. Да и в литературе так пишут.
+%Ну раз начал, доделаю остальные вклады, а потом буду смотреть на Грибова. Написал словакам, пока молчат.
+%Всего наилучшего,
+%N.V. Antonov.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 %\section{Introduction} 
 %\label{sec:Intro}
 
-\section{Description of the model. Field theoretic formulation}
+\section{Description of the model. Field theoretic formulation.}
 \label{sec:QFT}
+
 \begin{equation}
-    S_{v}(v^{'},v)=v^{'}D_{v}v^{'}/2+v^{'}\{-\nabla_{t}+\nu_{0}\partial^2\}v+\omega_{0}\nu_{0}^{3}v^{'}_{i}(\partial_{i}\theta)\partial^{2}\theta
+S_{v}(v^{'},v) = v^{'}D_{v}v^{'}/2+v^{'}\{-\nabla_{t}+\nu_{0}\partial^2\}v-\omega_{0}\nu_{0}^{3}v^{'}_{i}(\partial_{i}\theta)\partial^{2}\theta
 \end{equation}
+
 \begin{equation}
 S(v,v^{'},\theta,\theta^{'}) = S_{v}(v^{'},v)+\theta^{'}D_{\theta}\theta^{'}/2+\theta^{'}\{-\nabla_{t}+k_{0}\partial^{2}\}\theta
 \end{equation}
-Feynman rules.
+$\omega_{0}>0$.
+\section{Feynman rules.}
 \begin{equation}
-\langle v,v^{'} \rangle_{0}=\langle v^{'},v \rangle _{0}^{T}=(-i\omega+\nu_{0}k^2)^{-1}
+\langle v_{i},v^{'}_{j} \rangle_{0}=\langle v^{'}_{i},v_{j} \rangle _{0}^{T}=(-i\omega+\nu_{0}k^2)^{-1}\delta_{ij}
 \end{equation}
 \begin{equation}
-\langle v,v \rangle_{0}=P_{ij}D_{0}k^{4-d-y}|-i\omega+\nu_{0}k^2|^{-2}
+\langle v_{i},v_{j} \rangle_{0}=P_{ij}D_{0}k^{4-d-y}|-i\omega+\nu_{0}k^2|^{-2}
 \end{equation}
 \begin{equation}
-\langle \theta,\theta^{'} \rangle_{0}=\langle \theta^{'},\theta \rangle _{0}^{T}=(-i\omega+\nu_{0}k^2)^{-1}
+\langle \theta,\theta^{'} \rangle_{0}=\langle \theta^{'},\theta \rangle _{0}^{T}=(-i\omega+k_{0}k^2)^{-1}
 \end{equation}
 \begin{equation}
-\langle \theta,\theta \rangle_{0}=K_{0}k^{2-d-y}|-i\omega+\nu_{0}k^2|^{-2}
+\langle \theta,\theta \rangle_{0}=K_{0}k^{2-d-z}|-i\omega+k_{0}k^2|^{-2}
 \end{equation}
+$K_{0}=1$.
 \begin{equation}
-    \langle v_{i}^{'}, \theta,\theta \rangle_{0}= -i\omega_{0}\nu_{0}^{3}[p_i k^2+p^2 k_i]
+    \langle v_{i}^{'}, \theta,\theta \rangle_{0}= i\omega_{0}\nu_{0}^{3}[p_i k^2+p^2 k_i]
 \end{equation}
 p,k - momentum of field $\theta$.
 \begin{equation}
-\langle \theta^{'}, v_i ,\theta \rangle_{0}= -ip_i
+\langle \theta^{'}, v_i ,\theta \rangle_{0}= ip_i
 \end{equation}
 p - momentum of field $\theta^{'}$, because $\partial_i v_i=0$.
 \begin{equation}
-\langle v^{'}_i, v_k ,v_s \rangle_{0}= -i[p_k \delta_{is}+ p_s \delta_{ik}]
+\langle v^{'}_i, v_k ,v_s \rangle_{0}= i[p_k \delta_{is}+ p_s \delta_{ik}]
 \end{equation}
 p - momentum of field $v^{'}$.
 \section{Canonical dimensions, UV divergences and the renormalization}
 \label{sec:Reno}
-
-%\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
-%\hline
-%$F$          & $\psi$ & $\psi^\dagger$ & $v$ & $\lambda_0,\lambda$ & $\tau_0,\tau$ & $ m,\mu,\Lambda$ & $g_0^2$ & $\omega_0$ & $g^2,\omega,\alpha,a_0,a$ \\
-%\hline
-%$d_F^k$      & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $-1$ & $-2$ & $2$ & $1$ & $2-d$ & $\xi$ & $0$ \\
-%\hline
-%$d_F^\omega$ & 0 & 0 & $1$ & $1$ & $0$ & $0$ & $2$ & $0$ & $0$ \\
-%\hline
-%$d_F$        & $\frac{d-2}{2}$ & $\frac{d+2}{2}$ & $1$ & $0$ & $2$ & $1$ & $6-d$ & $\xi$ & $0$ \\
-%\hline
-%\end{tabular}
-
 \begin{tabular} {|c|c|c|c|c|c|c|c|c|c|c|}
     \hline
     $F$            &  $v$   &   $v^{'}$  &   $\theta$            &     $\theta^{'}$            &        $\nu$     &     $\omega, \omega_{0}$    &      $D,D_{0}$     &   $k,k_{0}$      &   $g,g_{0}$       &   $u$    \\ \hline

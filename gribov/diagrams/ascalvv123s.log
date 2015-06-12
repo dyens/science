@@ -1,0 +1,21 @@
+This is METAFONT, Version 2.718281 (TeX Live 2012/Debian) (base=mf 2013.4.26)  16 JUL 2013 13:24
+**\mode:=ljfour; mag:=1; nonstopmode; input ascalvv123s
+(/home/dyens/science/science/activescalar/diagrams/ascalvv123s.mf
+(/usr/share/texmf/metafont/feynmf/feynmf.mf) [1])
+! Emergency stop.
+<*> ...our; mag:=1; nonstopmode; input ascalvv123s
+                                                  
+*** (job aborted, no legal end found)
+
+ 
+Here is how much of METAFONT's memory you used:
+ 618 strings out of 5274
+ 7174 string characters out of 69995
+ 30417 words of memory out of 3000000
+ 1378 symbolic tokens out of 9500
+ 14i,67n,8r,28p,147b stack positions out of 300i,300n,1000r,150p,200000b
+ 
+(You used 2w,2h,1d,1i,0l,0k,0e,0p metric file positions
+  out of 256w,16h,16d,64i,15000l,2500k,256e,60p)
+Font metrics written on ascalvv123s.tfm.
+Output written on ascalvv123s.600gf (1 character, 2564 bytes).

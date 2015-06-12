@@ -1,0 +1,20 @@
+This is METAFONT, Version 2.718281 (TeX Live 2012/Debian) (base=mf 2013.1.14)  25 MAR 2013 11:52
+**\mode:=ljfour; mag:=1; nonstopmode; input scalar_vsv
+(/home/dyens/science/science/activescalar/diagrams/scalar_vsv.mf
+(/usr/share/texmf/metafont/feynmf/feynmf.mf))
+! Emergency stop.
+<*> ...four; mag:=1; nonstopmode; input scalar_vsv
+                                                  
+*** (job aborted, no legal end found)
+
+ 
+Here is how much of METAFONT's memory you used:
+ 601 strings out of 5274
+ 6927 string characters out of 69995
+ 26761 words of memory out of 3000000
+ 1375 symbolic tokens out of 9500
+ 12i,67n,4r,22p,146b stack positions out of 300i,300n,1000r,150p,200000b
+ 
+(You used 1w,1h,1d,1i,0l,0k,0e,0p metric file positions
+  out of 256w,16h,16d,64i,15000l,2500k,256e,60p)
+Font metrics written on scalar_vsv.tfm.

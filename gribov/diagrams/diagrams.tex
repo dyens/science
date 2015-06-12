@@ -1,0 +1,281 @@
+\documentclass[12pt]{article}
+\textwidth = 15cm \oddsidemargin = 1.5cm \topmargin = -3cm
+\textheight = 21cm
+%\usepackage[russian]{babel}
+%\usepackage{graphicx}
+\usepackage{feynmf}
+\unitlength=1mm
+\begin{document}
+
+%%v'v'
+\begin{eqnarray}
+\begin{fmffile}{ascalvvs}
+\langle v^{'} v \rangle _{1-ir}= 
+\parbox{30mm}{
+\begin{fmfgraph*}(30,20)
+\fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{dashes,tension=3}{v1,i}
+  \fmf{dashes_arrow,tension=3}{o,v2}
+  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{plain,right, left=0.7, tension=.5}{v1,v2}
+\end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+ \fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{dashes,tension=3}{v1,i}
+  \fmf{dashes_arrow,tension=3}{o,v2}
+  \fmf{dashes_arrow,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{dashes,right,left=0.7, tension=.5}{v1,v2}
+   \end{fmfgraph*}}
+\end{fmffile}
+\end{eqnarray}
+
+%%psi psi'
+\begin{eqnarray}
+\begin{fmffile}{gribovpsipsi}
+    \langle \psi \psi^{'} \rangle _{1-ir}= 
+        \parbox{30mm}{
+            \begin{fmfgraph*}(30,20)
+                \fmfright{i}
+                \fmfleft{o}
+                \fmfdot{v1,v2}
+                \fmf{plain,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v2}
+  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{dashes,right,left=0.7, tension=.5}{v1,v2}
+    \end{fmfgraph*}} +  \parbox{30mm}{\begin{fmfgraph*}(30,20)
+ \fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{plain,tension=3}{i,v1}
+  \fmf{fermion,tension=3}{o,v2}
+  \fmf{dashes_arrow,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{plain,right,left=0.7, tension=.5}{v1,v2}
+   \end{fmfgraph*}}
+\end{fmffile}
+\end{eqnarray}
+
+
+
+
+%%v'vv
+\begin{eqnarray*}
+    \langle v^{'}vv\rangle _{1-ir} =
+ {
+\parbox[c]{30mm}{\center\begin{fmffile}{avvs1}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{dashes, tension=3}{v2,r}
+  \fmf{dashes,tension=3}{v1,l}
+  \fmf{dashes_arrow,tension=.4}{v3,v2}
+  \fmf{dashes,tension=.4}{v3,v1}
+  \fmf{dashes_arrow,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}}
+   +
+ \parbox[c]{30mm}{\center\begin{fmffile}{avvs2}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{dashes, tension=3}{v2,r}
+  \fmf{dashes,tension=3}{v1,l}
+  \fmf{dashes_arrow,tension=.4}{v3,v2}
+  \fmf{dashes_arrow,tension=.4}{v3,v1}
+  \fmf{dashes,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   +
+   \parbox[c]{30mm}{\center\begin{fmffile}{avvs3}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+    \fmf{dashes,tension=3}{v2,r}
+  \fmf{dashes,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{plain,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}} 
+   + 
+ \parbox[c]{30mm}{\center\begin{fmffile}{avvs4}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{dashes,tension=3}{v2,r}
+  \fmf{dashes,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{plain,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   \end{eqnarray*}
+
+%%v'theta theta
+\begin{eqnarray*}
+    \langle v^{'}\theta \theta \rangle _{1-ir} =
+ {
+\parbox[c]{30mm}{\center\begin{fmffile}{avstt1}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{plain, tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{dashes_arrow,tension=.4}{v3,v2}
+  \fmf{dashes,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}}
+   +
+ \parbox[c]{30mm}{\center\begin{fmffile}{avstt2}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{plain, tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{dashes_arrow,tension=.4}{v3,v2}
+  \fmf{dashes_arrow,tension=.4}{v3,v1}
+  \fmf{plain,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   +
+   \parbox[c]{30mm}{\center\begin{fmffile}{avstt3}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+    \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{dashes,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}} 
+   + 
+ \parbox[c]{30mm}{\center\begin{fmffile}{avstt4}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{plain,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{plain,tension=.4}{v3,v1}
+  \fmf{dashes_arrow,tension=.4}{v2,v1}
+  \fmf{dashes_arrow,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   \end{eqnarray*}
+
+%%theta' theta v
+\begin{eqnarray*}
+\langle \theta \theta^{'} v\rangle _{1-ir} =
+{
+\parbox[c]{30mm}{\center\begin{fmffile}{atstv1}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{dashes,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{dashes_arrow,tension=.4}{v3,v2}
+  \fmf{plain,tension=.4}{v3,v1}
+  \fmf{dashes_arrow,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}}
+  +
+  \parbox[c]{30mm}{\center\begin{fmffile}{atstv2}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{dashes,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{dashes,tension=.4}{v3,v2}
+  \fmf{fermion,tension=.4}{v3,v1}
+  \fmf{dashes_arrow,tension=.4}{v1,v2}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}} 
+   +
+ \parbox[c]{30mm}{\center\begin{fmffile}{atstv31}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{dashes,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{fermion,tension=.4}{v3,v2}
+  \fmf{dashes,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v2,v1}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   +
+ \parbox[c]{30mm}{\center\begin{fmffile}{atstv4}\begin{fmfgraph*}(25,40)
+  \fmfright{r}
+  \fmfleft{l}
+  \fmftop{t}
+  \fmfdot{v1,v2,v3}
+  \fmf{dashes,tension=3}{v2,r}
+  \fmf{plain,tension=3}{v1,l}
+  \fmf{plain,tension=.4}{v3,v2}
+  \fmf{dashes_arrow,tension=.4}{v3,v1}
+  \fmf{fermion,tension=.4}{v1,v2}
+  \fmf{fermion,tension=3}{t,v3}
+   \end{fmfgraph*}
+   \end{fmffile}}
+   \end{eqnarray*}
+
+
+\begin{eqnarray}
+\begin{fmffile}{ascalvv1233s}
+\parbox{30mm}{
+\begin{fmfgraph*}(30,20)
+\fmfright{i}
+  \fmfleft{o}
+  \fmfdot{v1,v2}
+  \fmf{dashes,tension=3}{v1,i}
+  \fmf{dashes_arrow,tension=3}{o,v2}
+  \fmf{fermion,right,left=0.7, tension=.5}{v2,v1}
+  \fmf{plain,right, left=0.7, tension=.5}{v1,v2}
+\end{fmfgraph*}}=
+\frac{\omega_{0}\nu^{3}_{0}S_{d}\delta_{ij}P^{2}}{z4k_{0}(2\pi)^{d}}*\frac{d-2}{d^2}
+\end{fmffile}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+\begin{fmffile}{ascalvv14233s}
+\parbox{30mm}{\begin{fmfgraph*}(30,20)
+\fmfright{i}
+\fmfleft{o}
+\fmfdot{v1,v2}
+\fmf{dashes,tension=3}{v1,i}
+\fmf{dashes_arrow,tension=3}{o,v2}
+\fmf{dashes_arrow,right,left=0.7, tension=.5}{v2,v1}
+\fmf{dashes,right,left=0.7, tension=.5}{v1,v2}
+\end{fmfgraph*}}=
+\frac{-D_{0}S_{d}P^{2}\delta_{ij}}{(2\pi)^{d}y4\nu_{0}^{2}}*\frac{d^2-d+2}{d^2}
+\end{fmffile}
+\end{eqnarray}
+
+
+
+\end{document}
